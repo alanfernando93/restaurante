@@ -1,0 +1,29 @@
+msgid "Settings"
+msgstr ""
+
+msgid "Users"
+msgstr ""
+
+msgid "Employees"
+msgstr ""
+
+msgid "English"
+msgstr ""
+
+msgid "Language"
+msgstr ""
+
+msgid "Spanish"
+msgstr ""
+
+msgid "The Salesianito"
+msgstr ""
+
+msgid "Sign Up"
+msgstr ""
+
+msgid "Login"
+msgstr ""
+
+msgid "Home"
+msgstr ""

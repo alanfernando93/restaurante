@@ -1,0 +1,26 @@
+msgid "Ajustes"
+msgstr ""
+
+msgid "Usuarios"
+msgstr ""
+
+msgid "Empleados"
+msgstr ""
+
+msgid "Español"
+msgstr ""
+
+msgid "Ingles"
+msgstr ""
+
+msgid "Idioma"
+msgstr ""
+
+msgid "El Salesianito"
+msgstr ""
+
+msgid "Registrarse"
+msgstr ""
+
+msgid "Iniciar Sesion"
+msgstr ""
