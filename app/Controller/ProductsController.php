@@ -60,10 +60,10 @@ class ProductsController extends AppController {
         if ($this->request->is('post')) {
             $this->Product->create();
             if ($this->Product->save($this->request->data)) {
-                print Crud::message('The product has been saved.');
+                print $this->Crud->message('The product has been saved.');
                 return $this->redirect(array('action' => 'index'));
             } else {
-                print Crud::message('The product could not be saved. Please, try again.', false);
+                print $this->Crud->message('The product could not be saved. Please, try again.', false);
             }
         }
         $categories = $this->Product->Category->find('list');
@@ -84,10 +84,10 @@ class ProductsController extends AppController {
         }
         if ($this->request->is(array('post', 'put'))) {
             if ($this->Product->save($this->request->data)) {
-                print Crud::message('The product has been saved.');
+                print $this->Crud->message('The product has been saved.');
                 return $this->redirect(array('action' => 'index'));
             } else {
-                print Crud::message('The product could not be saved. Please, try again.', false);
+                print $this->Crud->message('The product could not be saved. Please, try again.', false);
                 $options = array('conditions' => array('Product.' . $this->Product->primaryKey => $id));
                 $this->request->data = $this->Product->find('first', $options);
             }
@@ -114,9 +114,9 @@ class ProductsController extends AppController {
         }
         $this->request->onlyAllow('post', 'delete');
         if ($this->Product->delete()) {
-            print Crud::message('The product has been deleted.');
+            print $this->Crud->message('The product has been deleted.');
         } else {
-            print Crud::message('The product could not be deleted. Please, try again.', false);
+            print $this->Crud->message('The product could not be deleted. Please, try again.', false);
         }
         return $this->redirect(array('action' => 'index'));
     }

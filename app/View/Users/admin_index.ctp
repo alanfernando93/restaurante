@@ -1,7 +1,7 @@
 <div id="contenedor">
     <h2><?php echo __('Users'); ?></h2>
     <div class="row-fluid" style="padding-bottom: 8px;">
-        <?php echo Crud::addNew(__('Añadir'), 'add', 'icon-plus-2'); ?>
+        <?php echo $this->Crud->addNew(__('Añadir'), 'add', 'icon-plus-2'); ?>
     </div>    
     <div class="table-responsive">
         <table class="table table-striped">
@@ -30,15 +30,15 @@
                         <td><?php echo h($user['User']['created']); ?>&nbsp;</td>
                         <td><?php echo h($user['User']['modified']); ?>&nbsp;</td>
                         <td class="tableActs">                     
-                            <?php echo Crud::Imag('View', 'view', $user['User']['id'], "&#xe081;"); ?>
-                            <?php echo Crud::Imag('Edit', 'edit', $user['User']['id'], "&#xe1db;"); ?>
-                            <?php echo Crud::Imag('Delete', 'delete', $user['User']['id'], "&#xe05d;", true); ?>
+                            <?php echo $this->Crud->Imag('View', 'view', $user['User']['id'], "&#xe081;"); ?>
+                            <?php echo $this->Crud->Imag('Edit', 'edit', $user['User']['id'], "&#xe1db;"); ?>
+                            <?php echo $this->Crud->Imag('Delete', 'delete', $user['User']['id'], "&#xe05d;", true); ?>
                         </td>
                     </tr>
                 <?php endforeach; ?>
             </tbody>
         </table>
     </div>
-    <?php Paginator::printP(); ?>
+    <?php $this->Crud->printPaginator(); ?>
     <?php echo $this->Js->writeBuffer(); ?>
 </div>

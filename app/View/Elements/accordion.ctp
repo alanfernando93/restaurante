@@ -7,19 +7,19 @@
             <div class="panel panel-default">
                 <a href="#menupos2" class="list-group-item" data-toggle="collapse" data-parent="#mainmenu"><span class="glyphicon glyphicon-th"></span> <?php print __('Modules'); ?> <span class="glyphicon glyphicon-chevron-down"></span></a>
                 <div class="collapse pos-absolute" id="menupos2">
-                    <?php echo Acordion::item(__('Categories'), 'categories', '#menupos2'); ?>
-                    <?php echo Acordion::item(__('Orders'), 'orders', '#menupos2'); ?>
-                    <?php echo Acordion::item(__('Products'), 'products', '#menupos2'); ?>
-                    <?php echo Acordion::item(__('Permissions'), 'permissions', '#menupos2'); ?>
-                    <?php echo Acordion::item(__('Roles'), 'roles', '#menupos2'); ?>
-                    <?php echo Acordion::item(__('Users'), 'users', '#menupos2'); ?>
+                    <?php echo $this->Acordion->item(__('Categories'), 'categories', '#menupos2'); ?>
+                    <?php echo $this->Acordion->item(__('Orders'), 'orders', '#menupos2'); ?>
+                    <?php echo $this->Acordion->item(__('Products'), 'products', '#menupos2'); ?>
+                    <?php echo $this->Acordion->item(__('Permissions'), 'permissions', '#menupos2'); ?>
+                    <?php echo $this->Acordion->item(__('Roles'), 'roles', '#menupos2'); ?>
+                    <?php echo $this->Acordion->item(__('Users'), 'users', '#menupos2'); ?>
                 </div>
             </div>
             <div class="panel panel-default">
                 <a href="#menupos3" class="list-group-item" data-toggle="collapse" data-parent="#mainmenu"><span class="glyphicon glyphicon-user">
                     </span> <?php echo __('Manegement'); ?><span class="glyphicon glyphicon-chevron-down"></span></a>
                 <div class="collapse pos-absolute" id="menupos3">
-                    <?php echo Acordion::item(__('Settings'), 'settings', '#menupos3'); ?>                                                                   
+                    <?php echo $this->Acordion->item(__('Settings'), 'settings', '#menupos3'); ?>                                                                   
                 </div>
             </div>
             <!--<div class="panel panel-default">

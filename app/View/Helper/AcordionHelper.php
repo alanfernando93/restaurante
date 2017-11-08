@@ -6,8 +6,10 @@
  * and open the template in the editor.
  */
 
-class Acordion{
 
+class AcordionHelper extends AppHelper{
+
+    public $helpers = array('Html', 'Form');
     /**
      * 
      * @param type $title

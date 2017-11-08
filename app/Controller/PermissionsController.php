@@ -60,10 +60,10 @@ class PermissionsController extends AppController {
         if ($this->request->is('post')) {
             $this->Permission->create();
             if ($this->Permission->save($this->request->data)) {
-                print Crud::message('The permission has been saved.');
+                print $this->Crud->message('The permission has been saved.');
                 return $this->redirect(array('action' => 'index'));
             } else {
-                print Crud::message('The permission could not be saved. Please, try again.', false);
+                print $this->Crud->message('The permission could not be saved. Please, try again.', false);
             }
         }
         $roles = $this->Permission->Role->find('list');
@@ -83,10 +83,10 @@ class PermissionsController extends AppController {
         }
         if ($this->request->is(array('post', 'put'))) {
             if ($this->Permission->save($this->request->data)) {
-                print Crud::message('The permission has been saved.');
+                print $this->Crud->message('The permission has been saved.');
                 return $this->redirect(array('action' => 'index'));
             } else {
-                print Crud::message('The permission could not be saved. Please, try again.', false);
+                print $this->Crud->message('The permission could not be saved. Please, try again.', false);
             }
         } else {
             $options = array('conditions' => array('Permission.' . $this->Permission->primaryKey => $id));
@@ -110,9 +110,9 @@ class PermissionsController extends AppController {
         }
         $this->request->onlyAllow('post', 'delete');
         if ($this->Permission->delete()) {
-            print Crud::message('The permission has been deleted.');
+            print $this->Crud->message('The permission has been deleted.');
         } else {
-            print Crud::message('The permission could not be deleted. Please, try again.', false);
+            print $this->Crud->message('The permission could not be deleted. Please, try again.', false);
         }
         return $this->redirect(array('action' => 'index'));
     }

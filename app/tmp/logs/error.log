@@ -27868,3 +27868,1295 @@ Request URL: /restaurante/js/docs.min.js
 Stack Trace:
 #0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2017-11-08 00:10:29 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-08 00:10:29 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-08 00:55:39 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-08 01:11:43 Error: [MissingHelperException] Helper class CrudHelper could not be found.
+Exception Attributes: array (
+  'class' => 'CrudHelper',
+  'plugin' => false,
+)
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/View/View.php(951): HelperCollection->load('Crud', Array)
+#1 /var/www/html/restaurante/lib/Cake/View/View.php(368): View->loadHelpers()
+#2 /var/www/html/restaurante/lib/Cake/Controller/Controller.php(1321): View->__construct(Object(UsersController))
+#3 /var/www/html/restaurante/lib/Cake/Controller/Controller.php(996): Controller->_getViewObject()
+#4 /var/www/html/restaurante/lib/Cake/Routing/Dispatcher.php(208): Controller->render()
+#5 /var/www/html/restaurante/lib/Cake/Routing/Dispatcher.php(173): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#6 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2017-11-08 01:11:43 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/css/cake.generic.css
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-08 01:11:54 Error: [MissingHelperException] Helper class CrudHelper could not be found.
+Exception Attributes: array (
+  'class' => 'CrudHelper',
+  'plugin' => false,
+)
+Request URL: /restaurante/
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/View/View.php(951): HelperCollection->load('Crud', Array)
+#1 /var/www/html/restaurante/lib/Cake/View/View.php(368): View->loadHelpers()
+#2 /var/www/html/restaurante/lib/Cake/Controller/Controller.php(1321): View->__construct(Object(WelcomeController))
+#3 /var/www/html/restaurante/lib/Cake/Controller/Controller.php(996): Controller->_getViewObject()
+#4 /var/www/html/restaurante/app/Controller/WelcomeController.php(72): Controller->render('home')
+#5 [internal function]: WelcomeController->display('home')
+#6 /var/www/html/restaurante/lib/Cake/Controller/Controller.php(505): ReflectionMethod->invokeArgs(Object(WelcomeController), Array)
+#7 /var/www/html/restaurante/lib/Cake/Routing/Dispatcher.php(201): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/html/restaurante/lib/Cake/Routing/Dispatcher.php(173): Dispatcher->_invoke(Object(WelcomeController), Object(CakeRequest), Object(CakeResponse))
+#9 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2017-11-08 01:11:54 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/css/cake.generic.css
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-08 01:11:54 Error: [MissingHelperException] Helper class CrudHelper could not be found.
+Exception Attributes: array (
+  'class' => 'CrudHelper',
+  'plugin' => false,
+)
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/View/View.php(951): HelperCollection->load('Crud', Array)
+#1 /var/www/html/restaurante/lib/Cake/View/View.php(368): View->loadHelpers()
+#2 /var/www/html/restaurante/lib/Cake/Controller/Controller.php(1321): View->__construct(Object(UsersController))
+#3 /var/www/html/restaurante/lib/Cake/Controller/Controller.php(996): Controller->_getViewObject()
+#4 /var/www/html/restaurante/lib/Cake/Routing/Dispatcher.php(208): Controller->render()
+#5 /var/www/html/restaurante/lib/Cake/Routing/Dispatcher.php(173): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#6 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2017-11-08 01:11:54 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/css/cake.generic.css
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-08 01:15:59 Error: [MissingHelperException] Helper class CrudHelper could not be found.
+Exception Attributes: array (
+  'class' => 'CrudHelper',
+  'plugin' => false,
+)
+Request URL: /restaurante/
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/View/View.php(951): HelperCollection->load('Crud', Array)
+#1 /var/www/html/restaurante/lib/Cake/View/View.php(368): View->loadHelpers()
+#2 /var/www/html/restaurante/lib/Cake/Controller/Controller.php(1321): View->__construct(Object(WelcomeController))
+#3 /var/www/html/restaurante/lib/Cake/Controller/Controller.php(996): Controller->_getViewObject()
+#4 /var/www/html/restaurante/app/Controller/WelcomeController.php(72): Controller->render('home')
+#5 [internal function]: WelcomeController->display('home')
+#6 /var/www/html/restaurante/lib/Cake/Controller/Controller.php(505): ReflectionMethod->invokeArgs(Object(WelcomeController), Array)
+#7 /var/www/html/restaurante/lib/Cake/Routing/Dispatcher.php(201): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/html/restaurante/lib/Cake/Routing/Dispatcher.php(173): Dispatcher->_invoke(Object(WelcomeController), Object(CakeRequest), Object(CakeResponse))
+#9 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2017-11-08 01:15:59 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/css/cake.generic.css
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-08 01:16:01 Error: [MissingHelperException] Helper class CrudHelper could not be found.
+Exception Attributes: array (
+  'class' => 'CrudHelper',
+  'plugin' => false,
+)
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/View/View.php(951): HelperCollection->load('Crud', Array)
+#1 /var/www/html/restaurante/lib/Cake/View/View.php(368): View->loadHelpers()
+#2 /var/www/html/restaurante/lib/Cake/Controller/Controller.php(1321): View->__construct(Object(UsersController))
+#3 /var/www/html/restaurante/lib/Cake/Controller/Controller.php(996): Controller->_getViewObject()
+#4 /var/www/html/restaurante/lib/Cake/Routing/Dispatcher.php(208): Controller->render()
+#5 /var/www/html/restaurante/lib/Cake/Routing/Dispatcher.php(173): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#6 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2017-11-08 01:16:01 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/css/cake.generic.css
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-08 01:16:02 Error: [MissingHelperException] Helper class CrudHelper could not be found.
+Exception Attributes: array (
+  'class' => 'CrudHelper',
+  'plugin' => false,
+)
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/View/View.php(951): HelperCollection->load('Crud', Array)
+#1 /var/www/html/restaurante/lib/Cake/View/View.php(368): View->loadHelpers()
+#2 /var/www/html/restaurante/lib/Cake/Controller/Controller.php(1321): View->__construct(Object(UsersController))
+#3 /var/www/html/restaurante/lib/Cake/Controller/Controller.php(996): Controller->_getViewObject()
+#4 /var/www/html/restaurante/lib/Cake/Routing/Dispatcher.php(208): Controller->render()
+#5 /var/www/html/restaurante/lib/Cake/Routing/Dispatcher.php(173): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#6 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2017-11-08 01:16:02 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/css/cake.generic.css
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-08 01:16:02 Error: [MissingHelperException] Helper class CrudHelper could not be found.
+Exception Attributes: array (
+  'class' => 'CrudHelper',
+  'plugin' => false,
+)
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/View/View.php(951): HelperCollection->load('Crud', Array)
+#1 /var/www/html/restaurante/lib/Cake/View/View.php(368): View->loadHelpers()
+#2 /var/www/html/restaurante/lib/Cake/Controller/Controller.php(1321): View->__construct(Object(UsersController))
+#3 /var/www/html/restaurante/lib/Cake/Controller/Controller.php(996): Controller->_getViewObject()
+#4 /var/www/html/restaurante/lib/Cake/Routing/Dispatcher.php(208): Controller->render()
+#5 /var/www/html/restaurante/lib/Cake/Routing/Dispatcher.php(173): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#6 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2017-11-08 01:16:02 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/css/cake.generic.css
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-08 01:18:33 Error: [MissingHelperException] Helper class CrudHelper could not be found.
+Exception Attributes: array (
+  'class' => 'CrudHelper',
+  'plugin' => false,
+)
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/View/View.php(951): HelperCollection->load('Crud', Array)
+#1 /var/www/html/restaurante/lib/Cake/View/View.php(368): View->loadHelpers()
+#2 /var/www/html/restaurante/lib/Cake/Controller/Controller.php(1321): View->__construct(Object(UsersController))
+#3 /var/www/html/restaurante/lib/Cake/Controller/Controller.php(996): Controller->_getViewObject()
+#4 /var/www/html/restaurante/lib/Cake/Routing/Dispatcher.php(208): Controller->render()
+#5 /var/www/html/restaurante/lib/Cake/Routing/Dispatcher.php(173): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#6 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2017-11-08 01:18:33 Error: Fatal Error (64): Cannot redeclare class Crud in [/var/www/html/restaurante/app/View/Helper/CrudHelper.php, line 0]
+2017-11-08 01:18:33 Error: [FatalErrorException] Cannot redeclare class Crud
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/var/www/html/r...', 0)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/var/www/html/r...', 0, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/var/www/html/r...', 0, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-08 01:18:33 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/css/cake.generic.css
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-08 01:18:34 Error: [MissingHelperException] Helper class CrudHelper could not be found.
+Exception Attributes: array (
+  'class' => 'CrudHelper',
+  'plugin' => false,
+)
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/View/View.php(951): HelperCollection->load('Crud', Array)
+#1 /var/www/html/restaurante/lib/Cake/View/View.php(368): View->loadHelpers()
+#2 /var/www/html/restaurante/lib/Cake/Controller/Controller.php(1321): View->__construct(Object(UsersController))
+#3 /var/www/html/restaurante/lib/Cake/Controller/Controller.php(996): Controller->_getViewObject()
+#4 /var/www/html/restaurante/lib/Cake/Routing/Dispatcher.php(208): Controller->render()
+#5 /var/www/html/restaurante/lib/Cake/Routing/Dispatcher.php(173): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#6 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2017-11-08 01:18:34 Error: Fatal Error (64): Cannot redeclare class Crud in [/var/www/html/restaurante/app/View/Helper/CrudHelper.php, line 0]
+2017-11-08 01:18:34 Error: [FatalErrorException] Cannot redeclare class Crud
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/var/www/html/r...', 0)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/var/www/html/r...', 0, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/var/www/html/r...', 0, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-08 01:18:34 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/css/cake.generic.css
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-08 01:18:35 Error: [MissingHelperException] Helper class CrudHelper could not be found.
+Exception Attributes: array (
+  'class' => 'CrudHelper',
+  'plugin' => false,
+)
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/View/View.php(951): HelperCollection->load('Crud', Array)
+#1 /var/www/html/restaurante/lib/Cake/View/View.php(368): View->loadHelpers()
+#2 /var/www/html/restaurante/lib/Cake/Controller/Controller.php(1321): View->__construct(Object(UsersController))
+#3 /var/www/html/restaurante/lib/Cake/Controller/Controller.php(996): Controller->_getViewObject()
+#4 /var/www/html/restaurante/lib/Cake/Routing/Dispatcher.php(208): Controller->render()
+#5 /var/www/html/restaurante/lib/Cake/Routing/Dispatcher.php(173): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#6 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2017-11-08 01:18:35 Error: Fatal Error (64): Cannot redeclare class Crud in [/var/www/html/restaurante/app/View/Helper/CrudHelper.php, line 0]
+2017-11-08 01:18:35 Error: [FatalErrorException] Cannot redeclare class Crud
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/var/www/html/r...', 0)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/var/www/html/r...', 0, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/var/www/html/r...', 0, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-08 01:18:35 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/css/cake.generic.css
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-08 01:18:35 Error: [MissingHelperException] Helper class CrudHelper could not be found.
+Exception Attributes: array (
+  'class' => 'CrudHelper',
+  'plugin' => false,
+)
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/View/View.php(951): HelperCollection->load('Crud', Array)
+#1 /var/www/html/restaurante/lib/Cake/View/View.php(368): View->loadHelpers()
+#2 /var/www/html/restaurante/lib/Cake/Controller/Controller.php(1321): View->__construct(Object(UsersController))
+#3 /var/www/html/restaurante/lib/Cake/Controller/Controller.php(996): Controller->_getViewObject()
+#4 /var/www/html/restaurante/lib/Cake/Routing/Dispatcher.php(208): Controller->render()
+#5 /var/www/html/restaurante/lib/Cake/Routing/Dispatcher.php(173): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#6 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2017-11-08 01:18:35 Error: Fatal Error (64): Cannot redeclare class Crud in [/var/www/html/restaurante/app/View/Helper/CrudHelper.php, line 0]
+2017-11-08 01:18:35 Error: [FatalErrorException] Cannot redeclare class Crud
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/var/www/html/r...', 0)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/var/www/html/r...', 0, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/var/www/html/r...', 0, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-08 01:18:35 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/css/cake.generic.css
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-08 01:18:42 Error: [MissingHelperException] Helper class CrudHelper could not be found.
+Exception Attributes: array (
+  'class' => 'CrudHelper',
+  'plugin' => false,
+)
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/View/View.php(951): HelperCollection->load('Crud', Array)
+#1 /var/www/html/restaurante/lib/Cake/View/View.php(368): View->loadHelpers()
+#2 /var/www/html/restaurante/lib/Cake/Controller/Controller.php(1321): View->__construct(Object(UsersController))
+#3 /var/www/html/restaurante/lib/Cake/Controller/Controller.php(996): Controller->_getViewObject()
+#4 /var/www/html/restaurante/lib/Cake/Routing/Dispatcher.php(208): Controller->render()
+#5 /var/www/html/restaurante/lib/Cake/Routing/Dispatcher.php(173): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#6 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2017-11-08 01:18:42 Error: Fatal Error (64): Cannot redeclare class Crud in [/var/www/html/restaurante/app/View/Helper/CrudHelper.php, line 0]
+2017-11-08 01:18:42 Error: [FatalErrorException] Cannot redeclare class Crud
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/var/www/html/r...', 0)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/var/www/html/r...', 0, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/var/www/html/r...', 0, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-08 01:18:42 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/css/cake.generic.css
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-08 01:18:43 Error: [MissingHelperException] Helper class CrudHelper could not be found.
+Exception Attributes: array (
+  'class' => 'CrudHelper',
+  'plugin' => false,
+)
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/View/View.php(951): HelperCollection->load('Crud', Array)
+#1 /var/www/html/restaurante/lib/Cake/View/View.php(368): View->loadHelpers()
+#2 /var/www/html/restaurante/lib/Cake/Controller/Controller.php(1321): View->__construct(Object(UsersController))
+#3 /var/www/html/restaurante/lib/Cake/Controller/Controller.php(996): Controller->_getViewObject()
+#4 /var/www/html/restaurante/lib/Cake/Routing/Dispatcher.php(208): Controller->render()
+#5 /var/www/html/restaurante/lib/Cake/Routing/Dispatcher.php(173): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#6 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2017-11-08 01:18:43 Error: Fatal Error (64): Cannot redeclare class Crud in [/var/www/html/restaurante/app/View/Helper/CrudHelper.php, line 0]
+2017-11-08 01:18:43 Error: [FatalErrorException] Cannot redeclare class Crud
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/var/www/html/r...', 0)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/var/www/html/r...', 0, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/var/www/html/r...', 0, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-08 01:18:43 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/css/cake.generic.css
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-08 01:18:43 Error: [MissingHelperException] Helper class CrudHelper could not be found.
+Exception Attributes: array (
+  'class' => 'CrudHelper',
+  'plugin' => false,
+)
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/View/View.php(951): HelperCollection->load('Crud', Array)
+#1 /var/www/html/restaurante/lib/Cake/View/View.php(368): View->loadHelpers()
+#2 /var/www/html/restaurante/lib/Cake/Controller/Controller.php(1321): View->__construct(Object(UsersController))
+#3 /var/www/html/restaurante/lib/Cake/Controller/Controller.php(996): Controller->_getViewObject()
+#4 /var/www/html/restaurante/lib/Cake/Routing/Dispatcher.php(208): Controller->render()
+#5 /var/www/html/restaurante/lib/Cake/Routing/Dispatcher.php(173): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#6 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2017-11-08 01:18:43 Error: Fatal Error (64): Cannot redeclare class Crud in [/var/www/html/restaurante/app/View/Helper/CrudHelper.php, line 0]
+2017-11-08 01:18:43 Error: [FatalErrorException] Cannot redeclare class Crud
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/var/www/html/r...', 0)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/var/www/html/r...', 0, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/var/www/html/r...', 0, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-08 01:18:43 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/css/cake.generic.css
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-08 01:18:44 Error: [MissingHelperException] Helper class CrudHelper could not be found.
+Exception Attributes: array (
+  'class' => 'CrudHelper',
+  'plugin' => false,
+)
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/View/View.php(951): HelperCollection->load('Crud', Array)
+#1 /var/www/html/restaurante/lib/Cake/View/View.php(368): View->loadHelpers()
+#2 /var/www/html/restaurante/lib/Cake/Controller/Controller.php(1321): View->__construct(Object(UsersController))
+#3 /var/www/html/restaurante/lib/Cake/Controller/Controller.php(996): Controller->_getViewObject()
+#4 /var/www/html/restaurante/lib/Cake/Routing/Dispatcher.php(208): Controller->render()
+#5 /var/www/html/restaurante/lib/Cake/Routing/Dispatcher.php(173): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#6 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2017-11-08 01:18:44 Error: Fatal Error (64): Cannot redeclare class Crud in [/var/www/html/restaurante/app/View/Helper/CrudHelper.php, line 0]
+2017-11-08 01:18:44 Error: [FatalErrorException] Cannot redeclare class Crud
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/var/www/html/r...', 0)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/var/www/html/r...', 0, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/var/www/html/r...', 0, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-08 01:18:44 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/css/cake.generic.css
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-08 01:18:44 Error: [MissingHelperException] Helper class CrudHelper could not be found.
+Exception Attributes: array (
+  'class' => 'CrudHelper',
+  'plugin' => false,
+)
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/View/View.php(951): HelperCollection->load('Crud', Array)
+#1 /var/www/html/restaurante/lib/Cake/View/View.php(368): View->loadHelpers()
+#2 /var/www/html/restaurante/lib/Cake/Controller/Controller.php(1321): View->__construct(Object(UsersController))
+#3 /var/www/html/restaurante/lib/Cake/Controller/Controller.php(996): Controller->_getViewObject()
+#4 /var/www/html/restaurante/lib/Cake/Routing/Dispatcher.php(208): Controller->render()
+#5 /var/www/html/restaurante/lib/Cake/Routing/Dispatcher.php(173): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#6 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2017-11-08 01:18:44 Error: Fatal Error (64): Cannot redeclare class Crud in [/var/www/html/restaurante/app/View/Helper/CrudHelper.php, line 0]
+2017-11-08 01:18:44 Error: [FatalErrorException] Cannot redeclare class Crud
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/var/www/html/r...', 0)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/var/www/html/r...', 0, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/var/www/html/r...', 0, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-08 01:18:44 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/css/cake.generic.css
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-08 01:18:45 Error: [MissingHelperException] Helper class CrudHelper could not be found.
+Exception Attributes: array (
+  'class' => 'CrudHelper',
+  'plugin' => false,
+)
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/View/View.php(951): HelperCollection->load('Crud', Array)
+#1 /var/www/html/restaurante/lib/Cake/View/View.php(368): View->loadHelpers()
+#2 /var/www/html/restaurante/lib/Cake/Controller/Controller.php(1321): View->__construct(Object(UsersController))
+#3 /var/www/html/restaurante/lib/Cake/Controller/Controller.php(996): Controller->_getViewObject()
+#4 /var/www/html/restaurante/lib/Cake/Routing/Dispatcher.php(208): Controller->render()
+#5 /var/www/html/restaurante/lib/Cake/Routing/Dispatcher.php(173): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#6 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2017-11-08 01:18:45 Error: Fatal Error (64): Cannot redeclare class Crud in [/var/www/html/restaurante/app/View/Helper/CrudHelper.php, line 0]
+2017-11-08 01:18:45 Error: [FatalErrorException] Cannot redeclare class Crud
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/var/www/html/r...', 0)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/var/www/html/r...', 0, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/var/www/html/r...', 0, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-08 01:18:45 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/css/cake.generic.css
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-08 01:18:45 Error: [MissingHelperException] Helper class CrudHelper could not be found.
+Exception Attributes: array (
+  'class' => 'CrudHelper',
+  'plugin' => false,
+)
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/View/View.php(951): HelperCollection->load('Crud', Array)
+#1 /var/www/html/restaurante/lib/Cake/View/View.php(368): View->loadHelpers()
+#2 /var/www/html/restaurante/lib/Cake/Controller/Controller.php(1321): View->__construct(Object(UsersController))
+#3 /var/www/html/restaurante/lib/Cake/Controller/Controller.php(996): Controller->_getViewObject()
+#4 /var/www/html/restaurante/lib/Cake/Routing/Dispatcher.php(208): Controller->render()
+#5 /var/www/html/restaurante/lib/Cake/Routing/Dispatcher.php(173): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#6 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2017-11-08 01:18:45 Error: Fatal Error (64): Cannot redeclare class Crud in [/var/www/html/restaurante/app/View/Helper/CrudHelper.php, line 0]
+2017-11-08 01:18:45 Error: [FatalErrorException] Cannot redeclare class Crud
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/var/www/html/r...', 0)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/var/www/html/r...', 0, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/var/www/html/r...', 0, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-08 01:18:45 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/css/cake.generic.css
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-08 01:18:45 Error: [MissingHelperException] Helper class CrudHelper could not be found.
+Exception Attributes: array (
+  'class' => 'CrudHelper',
+  'plugin' => false,
+)
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/View/View.php(951): HelperCollection->load('Crud', Array)
+#1 /var/www/html/restaurante/lib/Cake/View/View.php(368): View->loadHelpers()
+#2 /var/www/html/restaurante/lib/Cake/Controller/Controller.php(1321): View->__construct(Object(UsersController))
+#3 /var/www/html/restaurante/lib/Cake/Controller/Controller.php(996): Controller->_getViewObject()
+#4 /var/www/html/restaurante/lib/Cake/Routing/Dispatcher.php(208): Controller->render()
+#5 /var/www/html/restaurante/lib/Cake/Routing/Dispatcher.php(173): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#6 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2017-11-08 01:18:45 Error: Fatal Error (64): Cannot redeclare class Crud in [/var/www/html/restaurante/app/View/Helper/CrudHelper.php, line 0]
+2017-11-08 01:18:45 Error: [FatalErrorException] Cannot redeclare class Crud
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/var/www/html/r...', 0)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/var/www/html/r...', 0, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/var/www/html/r...', 0, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-08 01:18:45 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/css/cake.generic.css
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-08 01:18:45 Error: [MissingHelperException] Helper class CrudHelper could not be found.
+Exception Attributes: array (
+  'class' => 'CrudHelper',
+  'plugin' => false,
+)
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/View/View.php(951): HelperCollection->load('Crud', Array)
+#1 /var/www/html/restaurante/lib/Cake/View/View.php(368): View->loadHelpers()
+#2 /var/www/html/restaurante/lib/Cake/Controller/Controller.php(1321): View->__construct(Object(UsersController))
+#3 /var/www/html/restaurante/lib/Cake/Controller/Controller.php(996): Controller->_getViewObject()
+#4 /var/www/html/restaurante/lib/Cake/Routing/Dispatcher.php(208): Controller->render()
+#5 /var/www/html/restaurante/lib/Cake/Routing/Dispatcher.php(173): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#6 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2017-11-08 01:18:45 Error: Fatal Error (64): Cannot redeclare class Crud in [/var/www/html/restaurante/app/View/Helper/CrudHelper.php, line 0]
+2017-11-08 01:18:45 Error: [FatalErrorException] Cannot redeclare class Crud
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/var/www/html/r...', 0)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/var/www/html/r...', 0, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/var/www/html/r...', 0, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-08 01:18:45 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/css/cake.generic.css
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-08 01:18:45 Error: [MissingHelperException] Helper class CrudHelper could not be found.
+Exception Attributes: array (
+  'class' => 'CrudHelper',
+  'plugin' => false,
+)
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/View/View.php(951): HelperCollection->load('Crud', Array)
+#1 /var/www/html/restaurante/lib/Cake/View/View.php(368): View->loadHelpers()
+#2 /var/www/html/restaurante/lib/Cake/Controller/Controller.php(1321): View->__construct(Object(UsersController))
+#3 /var/www/html/restaurante/lib/Cake/Controller/Controller.php(996): Controller->_getViewObject()
+#4 /var/www/html/restaurante/lib/Cake/Routing/Dispatcher.php(208): Controller->render()
+#5 /var/www/html/restaurante/lib/Cake/Routing/Dispatcher.php(173): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#6 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2017-11-08 01:18:45 Error: Fatal Error (64): Cannot redeclare class Crud in [/var/www/html/restaurante/app/View/Helper/CrudHelper.php, line 0]
+2017-11-08 01:18:45 Error: [FatalErrorException] Cannot redeclare class Crud
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/var/www/html/r...', 0)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/var/www/html/r...', 0, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/var/www/html/r...', 0, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-08 01:18:45 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/css/cake.generic.css
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-08 01:18:46 Error: [MissingHelperException] Helper class CrudHelper could not be found.
+Exception Attributes: array (
+  'class' => 'CrudHelper',
+  'plugin' => false,
+)
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/View/View.php(951): HelperCollection->load('Crud', Array)
+#1 /var/www/html/restaurante/lib/Cake/View/View.php(368): View->loadHelpers()
+#2 /var/www/html/restaurante/lib/Cake/Controller/Controller.php(1321): View->__construct(Object(UsersController))
+#3 /var/www/html/restaurante/lib/Cake/Controller/Controller.php(996): Controller->_getViewObject()
+#4 /var/www/html/restaurante/lib/Cake/Routing/Dispatcher.php(208): Controller->render()
+#5 /var/www/html/restaurante/lib/Cake/Routing/Dispatcher.php(173): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#6 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2017-11-08 01:18:46 Error: Fatal Error (64): Cannot redeclare class Crud in [/var/www/html/restaurante/app/View/Helper/CrudHelper.php, line 0]
+2017-11-08 01:18:46 Error: [FatalErrorException] Cannot redeclare class Crud
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/var/www/html/r...', 0)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/var/www/html/r...', 0, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/var/www/html/r...', 0, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-08 01:18:46 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/css/cake.generic.css
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-08 01:24:41 Error: [MissingHelperException] Helper class PaginatorHelper could not be found.
+Exception Attributes: array (
+  'class' => 'PaginatorHelper',
+  'plugin' => false,
+)
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/View/View.php(951): HelperCollection->load('Paginator', Array)
+#1 /var/www/html/restaurante/lib/Cake/View/View.php(368): View->loadHelpers()
+#2 /var/www/html/restaurante/lib/Cake/Controller/Controller.php(1321): View->__construct(Object(UsersController))
+#3 /var/www/html/restaurante/lib/Cake/Controller/Controller.php(996): Controller->_getViewObject()
+#4 /var/www/html/restaurante/lib/Cake/Routing/Dispatcher.php(208): Controller->render()
+#5 /var/www/html/restaurante/lib/Cake/Routing/Dispatcher.php(173): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#6 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2017-11-08 01:24:41 Error: Fatal Error (64): Cannot redeclare class Paginator in [/var/www/html/restaurante/app/View/Helper/PaginatorHelper.php, line 0]
+2017-11-08 01:24:41 Error: [FatalErrorException] Cannot redeclare class Paginator
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/var/www/html/r...', 0)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/var/www/html/r...', 0, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/var/www/html/r...', 0, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-08 01:24:42 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/css/cake.generic.css
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-08 01:24:43 Error: [MissingHelperException] Helper class PaginatorHelper could not be found.
+Exception Attributes: array (
+  'class' => 'PaginatorHelper',
+  'plugin' => false,
+)
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/View/View.php(951): HelperCollection->load('Paginator', Array)
+#1 /var/www/html/restaurante/lib/Cake/View/View.php(368): View->loadHelpers()
+#2 /var/www/html/restaurante/lib/Cake/Controller/Controller.php(1321): View->__construct(Object(UsersController))
+#3 /var/www/html/restaurante/lib/Cake/Controller/Controller.php(996): Controller->_getViewObject()
+#4 /var/www/html/restaurante/lib/Cake/Routing/Dispatcher.php(208): Controller->render()
+#5 /var/www/html/restaurante/lib/Cake/Routing/Dispatcher.php(173): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#6 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2017-11-08 01:24:43 Error: Fatal Error (64): Cannot redeclare class Paginator in [/var/www/html/restaurante/app/View/Helper/PaginatorHelper.php, line 0]
+2017-11-08 01:24:43 Error: [FatalErrorException] Cannot redeclare class Paginator
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/var/www/html/r...', 0)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/var/www/html/r...', 0, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/var/www/html/r...', 0, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-08 01:24:43 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/css/cake.generic.css
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-08 01:31:19 Error: [MissingHelperException] Helper class strCountHelper could not be found.
+Exception Attributes: array (
+  'class' => 'strCountHelper',
+  'plugin' => false,
+)
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/View/View.php(951): HelperCollection->load('strCount', Array)
+#1 /var/www/html/restaurante/lib/Cake/View/View.php(368): View->loadHelpers()
+#2 /var/www/html/restaurante/lib/Cake/Controller/Controller.php(1321): View->__construct(Object(UsersController))
+#3 /var/www/html/restaurante/lib/Cake/Controller/Controller.php(996): Controller->_getViewObject()
+#4 /var/www/html/restaurante/lib/Cake/Routing/Dispatcher.php(208): Controller->render()
+#5 /var/www/html/restaurante/lib/Cake/Routing/Dispatcher.php(173): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#6 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2017-11-08 01:31:19 Error: Fatal Error (64): Cannot redeclare class strCount in [/var/www/html/restaurante/app/View/Helper/strCountHelper.php, line 0]
+2017-11-08 01:31:19 Error: [FatalErrorException] Cannot redeclare class strCount
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/var/www/html/r...', 0)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/var/www/html/r...', 0, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/var/www/html/r...', 0, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-08 01:31:19 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/css/cake.generic.css
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-08 01:31:21 Error: [MissingHelperException] Helper class strCountHelper could not be found.
+Exception Attributes: array (
+  'class' => 'strCountHelper',
+  'plugin' => false,
+)
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/View/View.php(951): HelperCollection->load('strCount', Array)
+#1 /var/www/html/restaurante/lib/Cake/View/View.php(368): View->loadHelpers()
+#2 /var/www/html/restaurante/lib/Cake/Controller/Controller.php(1321): View->__construct(Object(UsersController))
+#3 /var/www/html/restaurante/lib/Cake/Controller/Controller.php(996): Controller->_getViewObject()
+#4 /var/www/html/restaurante/lib/Cake/Routing/Dispatcher.php(208): Controller->render()
+#5 /var/www/html/restaurante/lib/Cake/Routing/Dispatcher.php(173): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#6 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2017-11-08 01:31:21 Error: Fatal Error (64): Cannot redeclare class strCount in [/var/www/html/restaurante/app/View/Helper/strCountHelper.php, line 0]
+2017-11-08 01:31:21 Error: [FatalErrorException] Cannot redeclare class strCount
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/var/www/html/r...', 0)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/var/www/html/r...', 0, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/var/www/html/r...', 0, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-08 01:31:21 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/css/cake.generic.css
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-08 01:31:21 Error: [MissingHelperException] Helper class strCountHelper could not be found.
+Exception Attributes: array (
+  'class' => 'strCountHelper',
+  'plugin' => false,
+)
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/View/View.php(951): HelperCollection->load('strCount', Array)
+#1 /var/www/html/restaurante/lib/Cake/View/View.php(368): View->loadHelpers()
+#2 /var/www/html/restaurante/lib/Cake/Controller/Controller.php(1321): View->__construct(Object(UsersController))
+#3 /var/www/html/restaurante/lib/Cake/Controller/Controller.php(996): Controller->_getViewObject()
+#4 /var/www/html/restaurante/lib/Cake/Routing/Dispatcher.php(208): Controller->render()
+#5 /var/www/html/restaurante/lib/Cake/Routing/Dispatcher.php(173): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#6 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2017-11-08 01:31:21 Error: Fatal Error (64): Cannot redeclare class strCount in [/var/www/html/restaurante/app/View/Helper/strCountHelper.php, line 0]
+2017-11-08 01:31:21 Error: [FatalErrorException] Cannot redeclare class strCount
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/var/www/html/r...', 0)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/var/www/html/r...', 0, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/var/www/html/r...', 0, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-08 01:31:21 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/css/cake.generic.css
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-08 01:31:22 Error: [MissingHelperException] Helper class strCountHelper could not be found.
+Exception Attributes: array (
+  'class' => 'strCountHelper',
+  'plugin' => false,
+)
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/View/View.php(951): HelperCollection->load('strCount', Array)
+#1 /var/www/html/restaurante/lib/Cake/View/View.php(368): View->loadHelpers()
+#2 /var/www/html/restaurante/lib/Cake/Controller/Controller.php(1321): View->__construct(Object(UsersController))
+#3 /var/www/html/restaurante/lib/Cake/Controller/Controller.php(996): Controller->_getViewObject()
+#4 /var/www/html/restaurante/lib/Cake/Routing/Dispatcher.php(208): Controller->render()
+#5 /var/www/html/restaurante/lib/Cake/Routing/Dispatcher.php(173): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#6 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2017-11-08 01:31:22 Error: Fatal Error (64): Cannot redeclare class strCount in [/var/www/html/restaurante/app/View/Helper/strCountHelper.php, line 0]
+2017-11-08 01:31:22 Error: [FatalErrorException] Cannot redeclare class strCount
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/var/www/html/r...', 0)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/var/www/html/r...', 0, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/var/www/html/r...', 0, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-08 01:31:22 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/css/cake.generic.css
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-08 01:31:22 Error: [MissingHelperException] Helper class strCountHelper could not be found.
+Exception Attributes: array (
+  'class' => 'strCountHelper',
+  'plugin' => false,
+)
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/View/View.php(951): HelperCollection->load('strCount', Array)
+#1 /var/www/html/restaurante/lib/Cake/View/View.php(368): View->loadHelpers()
+#2 /var/www/html/restaurante/lib/Cake/Controller/Controller.php(1321): View->__construct(Object(UsersController))
+#3 /var/www/html/restaurante/lib/Cake/Controller/Controller.php(996): Controller->_getViewObject()
+#4 /var/www/html/restaurante/lib/Cake/Routing/Dispatcher.php(208): Controller->render()
+#5 /var/www/html/restaurante/lib/Cake/Routing/Dispatcher.php(173): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#6 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2017-11-08 01:31:22 Error: Fatal Error (64): Cannot redeclare class strCount in [/var/www/html/restaurante/app/View/Helper/strCountHelper.php, line 0]
+2017-11-08 01:31:22 Error: [FatalErrorException] Cannot redeclare class strCount
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/var/www/html/r...', 0)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/var/www/html/r...', 0, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/var/www/html/r...', 0, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-08 01:31:22 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/css/cake.generic.css
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-08 01:31:23 Error: [MissingHelperException] Helper class strCountHelper could not be found.
+Exception Attributes: array (
+  'class' => 'strCountHelper',
+  'plugin' => false,
+)
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/View/View.php(951): HelperCollection->load('strCount', Array)
+#1 /var/www/html/restaurante/lib/Cake/View/View.php(368): View->loadHelpers()
+#2 /var/www/html/restaurante/lib/Cake/Controller/Controller.php(1321): View->__construct(Object(UsersController))
+#3 /var/www/html/restaurante/lib/Cake/Controller/Controller.php(996): Controller->_getViewObject()
+#4 /var/www/html/restaurante/lib/Cake/Routing/Dispatcher.php(208): Controller->render()
+#5 /var/www/html/restaurante/lib/Cake/Routing/Dispatcher.php(173): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#6 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2017-11-08 01:31:23 Error: Fatal Error (64): Cannot redeclare class strCount in [/var/www/html/restaurante/app/View/Helper/strCountHelper.php, line 0]
+2017-11-08 01:31:23 Error: [FatalErrorException] Cannot redeclare class strCount
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/var/www/html/r...', 0)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/var/www/html/r...', 0, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/var/www/html/r...', 0, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-08 01:31:23 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/css/cake.generic.css
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-08 01:31:23 Error: [MissingHelperException] Helper class strCountHelper could not be found.
+Exception Attributes: array (
+  'class' => 'strCountHelper',
+  'plugin' => false,
+)
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/View/View.php(951): HelperCollection->load('strCount', Array)
+#1 /var/www/html/restaurante/lib/Cake/View/View.php(368): View->loadHelpers()
+#2 /var/www/html/restaurante/lib/Cake/Controller/Controller.php(1321): View->__construct(Object(UsersController))
+#3 /var/www/html/restaurante/lib/Cake/Controller/Controller.php(996): Controller->_getViewObject()
+#4 /var/www/html/restaurante/lib/Cake/Routing/Dispatcher.php(208): Controller->render()
+#5 /var/www/html/restaurante/lib/Cake/Routing/Dispatcher.php(173): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#6 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2017-11-08 01:31:23 Error: Fatal Error (64): Cannot redeclare class strCount in [/var/www/html/restaurante/app/View/Helper/strCountHelper.php, line 0]
+2017-11-08 01:31:23 Error: [FatalErrorException] Cannot redeclare class strCount
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/var/www/html/r...', 0)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/var/www/html/r...', 0, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/var/www/html/r...', 0, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-08 01:31:23 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/css/cake.generic.css
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-08 01:31:23 Error: [MissingHelperException] Helper class strCountHelper could not be found.
+Exception Attributes: array (
+  'class' => 'strCountHelper',
+  'plugin' => false,
+)
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/View/View.php(951): HelperCollection->load('strCount', Array)
+#1 /var/www/html/restaurante/lib/Cake/View/View.php(368): View->loadHelpers()
+#2 /var/www/html/restaurante/lib/Cake/Controller/Controller.php(1321): View->__construct(Object(UsersController))
+#3 /var/www/html/restaurante/lib/Cake/Controller/Controller.php(996): Controller->_getViewObject()
+#4 /var/www/html/restaurante/lib/Cake/Routing/Dispatcher.php(208): Controller->render()
+#5 /var/www/html/restaurante/lib/Cake/Routing/Dispatcher.php(173): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#6 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2017-11-08 01:31:23 Error: Fatal Error (64): Cannot redeclare class strCount in [/var/www/html/restaurante/app/View/Helper/strCountHelper.php, line 0]
+2017-11-08 01:31:23 Error: [FatalErrorException] Cannot redeclare class strCount
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/var/www/html/r...', 0)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/var/www/html/r...', 0, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/var/www/html/r...', 0, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-08 01:31:23 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/css/cake.generic.css
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-08 01:32:48 Error: [MissingHelperException] Helper class strCountHelper could not be found.
+Exception Attributes: array (
+  'class' => 'strCountHelper',
+  'plugin' => false,
+)
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/View/View.php(951): HelperCollection->load('strCount', Array)
+#1 /var/www/html/restaurante/lib/Cake/View/View.php(368): View->loadHelpers()
+#2 /var/www/html/restaurante/lib/Cake/Controller/Controller.php(1321): View->__construct(Object(UsersController))
+#3 /var/www/html/restaurante/lib/Cake/Controller/Controller.php(996): Controller->_getViewObject()
+#4 /var/www/html/restaurante/lib/Cake/Routing/Dispatcher.php(208): Controller->render()
+#5 /var/www/html/restaurante/lib/Cake/Routing/Dispatcher.php(173): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#6 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2017-11-08 01:32:48 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/css/cake.generic.css
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-08 01:33:02 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-08 01:33:03 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-08 01:33:08 Error: Fatal Error (1): Class 'Crud' not found in [/var/www/html/restaurante/app/Controller/UsersController.php, line 153]
+2017-11-08 01:33:08 Error: [FatalErrorException] Class 'Crud' not found
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Class 'Crud' no...', '/var/www/html/r...', 153)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Crud' no...', '/var/www/html/r...', 153, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Class 'Crud' no...', '/var/www/html/r...', 153, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-08 01:34:22 Error: Fatal Error (1): Class 'Crud' not found in [/var/www/html/restaurante/app/Controller/UsersController.php, line 153]
+2017-11-08 01:34:22 Error: [FatalErrorException] Class 'Crud' not found
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Class 'Crud' no...', '/var/www/html/r...', 153)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Crud' no...', '/var/www/html/r...', 153, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Class 'Crud' no...', '/var/www/html/r...', 153, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-08 01:35:50 Error: Fatal Error (1): Class 'Crud' not found in [/var/www/html/restaurante/app/Controller/UsersController.php, line 153]
+2017-11-08 01:35:50 Error: [FatalErrorException] Class 'Crud' not found
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Class 'Crud' no...', '/var/www/html/r...', 153)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Crud' no...', '/var/www/html/r...', 153, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Class 'Crud' no...', '/var/www/html/r...', 153, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-08 01:39:41 Error: Fatal Error (1): Class 'Crud' not found in [/var/www/html/restaurante/app/Controller/UsersController.php, line 153]
+2017-11-08 01:39:41 Error: [FatalErrorException] Class 'Crud' not found
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Class 'Crud' no...', '/var/www/html/r...', 153)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Crud' no...', '/var/www/html/r...', 153, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Class 'Crud' no...', '/var/www/html/r...', 153, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-08 01:42:16 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-08 01:42:20 Error: Fatal Error (1): Class 'Crud' not found in [/var/www/html/restaurante/app/Controller/UsersController.php, line 153]
+2017-11-08 01:42:20 Error: [FatalErrorException] Class 'Crud' not found
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Class 'Crud' no...', '/var/www/html/r...', 153)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Crud' no...', '/var/www/html/r...', 153, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Class 'Crud' no...', '/var/www/html/r...', 153, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-08 01:44:02 Error: Fatal Error (1): Class 'Crud' not found in [/var/www/html/restaurante/app/Controller/UsersController.php, line 153]
+2017-11-08 01:44:02 Error: [FatalErrorException] Class 'Crud' not found
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Class 'Crud' no...', '/var/www/html/r...', 153)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Crud' no...', '/var/www/html/r...', 153, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Class 'Crud' no...', '/var/www/html/r...', 153, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-08 01:44:24 Error: Fatal Error (1): Class 'Crud' not found in [/var/www/html/restaurante/app/Controller/UsersController.php, line 153]
+2017-11-08 01:44:24 Error: [FatalErrorException] Class 'Crud' not found
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Class 'Crud' no...', '/var/www/html/r...', 153)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Crud' no...', '/var/www/html/r...', 153, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Class 'Crud' no...', '/var/www/html/r...', 153, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-08 01:44:43 Error: Fatal Error (1): Class 'Crud' not found in [/var/www/html/restaurante/app/Controller/UsersController.php, line 153]
+2017-11-08 01:44:43 Error: [FatalErrorException] Class 'Crud' not found
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Class 'Crud' no...', '/var/www/html/r...', 153)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Crud' no...', '/var/www/html/r...', 153, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Class 'Crud' no...', '/var/www/html/r...', 153, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-08 01:47:37 Error: Fatal Error (1): Call to a member function message() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 153]
+2017-11-08 01:47:37 Error: [FatalErrorException] Call to a member function message() on null
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 153)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 153, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 153, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-08 01:49:56 Error: Fatal Error (1): Call to a member function link() on null in [/var/www/html/restaurante/app/View/Helper/CrudHelper.php, line 55]
+2017-11-08 01:49:56 Error: [FatalErrorException] Call to a member function link() on null
+Request URL: /restaurante/admin/categories
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 55)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 55, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 55, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-08 01:49:58 Error: Fatal Error (1): Call to a member function link() on null in [/var/www/html/restaurante/app/View/Helper/CrudHelper.php, line 55]
+2017-11-08 01:49:58 Error: [FatalErrorException] Call to a member function link() on null
+Request URL: /restaurante/admin/orders
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 55)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 55, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 55, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-08 01:49:59 Error: Fatal Error (1): Call to a member function link() on null in [/var/www/html/restaurante/app/View/Helper/CrudHelper.php, line 55]
+2017-11-08 01:49:59 Error: [FatalErrorException] Call to a member function link() on null
+Request URL: /restaurante/admin/products
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 55)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 55, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 55, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-08 01:50:00 Error: Fatal Error (1): Call to a member function link() on null in [/var/www/html/restaurante/app/View/Helper/CrudHelper.php, line 55]
+2017-11-08 01:50:00 Error: [FatalErrorException] Call to a member function link() on null
+Request URL: /restaurante/admin/permissions
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 55)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 55, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 55, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-08 01:50:02 Error: Fatal Error (1): Call to a member function link() on null in [/var/www/html/restaurante/app/View/Helper/CrudHelper.php, line 55]
+2017-11-08 01:50:02 Error: [FatalErrorException] Call to a member function link() on null
+Request URL: /restaurante/admin/users
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 55)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 55, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 55, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-08 01:50:04 Error: Fatal Error (1): Call to a member function link() on null in [/var/www/html/restaurante/app/View/Helper/CrudHelper.php, line 55]
+2017-11-08 01:50:04 Error: [FatalErrorException] Call to a member function link() on null
+Request URL: /restaurante/admin/roles
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 55)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 55, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 55, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-08 01:50:06 Error: Fatal Error (1): Call to a member function link() on null in [/var/www/html/restaurante/app/View/Helper/CrudHelper.php, line 55]
+2017-11-08 01:50:06 Error: [FatalErrorException] Call to a member function link() on null
+Request URL: /restaurante/admin/permissions
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 55)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 55, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 55, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-08 01:50:07 Error: Fatal Error (1): Call to a member function link() on null in [/var/www/html/restaurante/app/View/Helper/CrudHelper.php, line 55]
+2017-11-08 01:50:07 Error: [FatalErrorException] Call to a member function link() on null
+Request URL: /restaurante/admin/products
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 55)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 55, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 55, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-08 01:50:27 Error: Fatal Error (1): Call to a member function counter() on null in [/var/www/html/restaurante/app/View/Helper/CrudHelper.php, line 73]
+2017-11-08 01:50:27 Error: [FatalErrorException] Call to a member function counter() on null
+Request URL: /restaurante/admin/products
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 73)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 73, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 73, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-08 01:50:29 Error: Fatal Error (1): Call to a member function counter() on null in [/var/www/html/restaurante/app/View/Helper/CrudHelper.php, line 73]
+2017-11-08 01:50:29 Error: [FatalErrorException] Call to a member function counter() on null
+Request URL: /restaurante/admin/products
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 73)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 73, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 73, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}

@@ -23,7 +23,7 @@
 		</dd>
 		<dt><?php echo __('Permission'); ?></dt>
 		<dd>
-			<?php echo $this->Html->link($role['Permission']['descripcion'], array('controller' => 'permissions', 'action' => 'view', $role['Permission']['id'])); ?>
+			<?php echo $this->Html->link($role['Role']['role'], array('controller' => 'permissions', 'action' => 'view', $role['Permission']['id'])); ?>
 			&nbsp;
 		</dd>
 	</dl>

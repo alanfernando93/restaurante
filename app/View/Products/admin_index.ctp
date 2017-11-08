@@ -9,7 +9,7 @@ $this->Paginator->options(array(
 <div id="contenedor">
     <h2><?php echo __('Products'); ?></h2>
     <div class="row-fluid" style="padding-bottom: 8px;">
-        <?php echo Crud::addNew(__('Add'), 'add', 'icon-plus-2'); ?>
+        <?php echo $this->Crud->addNew(__('Add'), 'add', 'icon-plus-2'); ?>
     </div> 
     <div class="table-responsive">
         <table class="table table-striped">
@@ -40,9 +40,9 @@ $this->Paginator->options(array(
                             <?php echo $this->Html->link($product['Category']['descripcion'], array('controller' => 'categories', 'action' => 'view', $product['Category']['id'])); ?>
                         </td>
                         <td class="tableActs">                     
-                            <?php echo Crud::Imag('View', 'view', $product['Product']['id'], "&#xe081;"); ?>
-                            <?php echo Crud::Imag('Edit', 'edit', $product['Product']['id'], "&#xe1db;"); ?>
-                            <?php echo Crud::Imag('Delete', 'delete', $product['Product']['id'], "&#xe05d;", true); ?>
+                            <?php echo $this->Crud->Imag('View', 'view', $product['Product']['id'], "&#xe081;"); ?>
+                            <?php echo $this->Crud->Imag('Edit', 'edit', $product['Product']['id'], "&#xe1db;"); ?>
+                            <?php echo $this->Crud->Imag('Delete', 'delete', $product['Product']['id'], "&#xe05d;", true); ?>
                         </td>
                     </tr>
                 <?php endforeach; ?>
@@ -54,6 +54,6 @@ $this->Paginator->options(array(
             <span class="sr-only">100% Complete</span>
         </div>
     </div>
-    <?php Paginator::printP(); ?>
+    <?php $this->Crud->printPaginator(); ?>
     <?php echo $this->Js->writeBuffer(); ?>
 </div>

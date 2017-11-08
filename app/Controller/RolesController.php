@@ -60,10 +60,10 @@ class RolesController extends AppController {
         if ($this->request->is('post')) {
             $this->Role->create();
             if ($this->Role->save($this->request->data)) {
-                print Crud::message('The role has been saved.');
+                print $this->Crud->message('The role has been saved.');
                 return $this->redirect(array('action' => 'index'));
             } else {
-                print Crud::message('The role could not be saved. Please, try again.', false);
+                print $this->Crud->message('The role could not be saved. Please, try again.', false);
             }
         }
         $permissions = $this->Role->Permission->find('list');
@@ -83,10 +83,10 @@ class RolesController extends AppController {
         }
         if ($this->request->is(array('post', 'put'))) {
             if ($this->Role->save($this->request->data)) {
-                print Crud::message('The role has been saved.');
+                print $this->Crud->message('The role has been saved.');
                 return $this->redirect(array('action' => 'index'));
             } else {
-                print Crud::message('The role could not be saved. Please, try again.', false);
+                print $this->Crud->message('The role could not be saved. Please, try again.', false);
             }
         } else {
             $options = array('conditions' => array('Role.' . $this->Role->primaryKey => $id));
@@ -110,9 +110,9 @@ class RolesController extends AppController {
         }
         $this->request->onlyAllow('post', 'delete');
         if ($this->Role->delete()) {
-            print Crud::message('The role has been deleted.');
+            print $this->Crud->message('The role has been deleted.');
         } else {
-            print Crud::message('The role could not be deleted. Please, try again.', false);
+            print $this->Crud->message('The role could not be deleted. Please, try again.', false);
         }
         return $this->redirect(array('action' => 'index'));
     }

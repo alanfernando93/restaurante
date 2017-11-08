@@ -94,9 +94,6 @@ Configure::write('Dispatcher.filters', array(
  * Configures default file logging options
  */
 App::uses('CakeLog', 'Log');
-App::uses('Acordion', 'Lib');
-App::uses('Crud', 'Lib');
-App::uses('Paginator', 'Lib');
 
 CakeLog::config('debug', array(
     'engine' => 'File',

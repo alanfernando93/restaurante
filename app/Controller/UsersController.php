@@ -61,10 +61,10 @@ class UsersController extends AppController {
         if ($this->request->is('post')) {
             $this->User->create();
             if ($this->User->save($this->request->data)) {
-                print Crud::message('The user has been saved.');
+                print $this->Crud->message('The user has been saved.');
                 return $this->redirect(array('action' => 'index'));
             } else {
-                print Crud::message('The user could not be saved. Please, try again.', false);
+                print $this->Crud->message('The user could not be saved. Please, try again.', false);
             }
         }
         $roles = $this->User->Role->find('list');
@@ -84,10 +84,10 @@ class UsersController extends AppController {
         }
         if ($this->request->is(array('post', 'put'))) {
             if ($this->User->save($this->request->data)) {
-                print Crud::message('The user has been saved.');
+                print $this->Crud->message('The user has been saved.');
                 return $this->redirect(array('action' => 'index'));
             } else {
-                print Crud::message('The user could not be saved. Please, try again.', false);
+                print $this->Crud->message('The user could not be saved. Please, try again.', false);
             }
         } else {
             $options = array('conditions' => array('User.' . $this->User->primaryKey => $id));
@@ -111,9 +111,9 @@ class UsersController extends AppController {
         }
         $this->request->onlyAllow('post', 'delete');
         if ($this->User->delete()) {
-            print Crud::message('The user has been deleted.');
+            print $this->Crud->message('The user has been deleted.');
         } else {
-            print Crud::message('The user could not be deleted. Please, try again.', false);
+            print $this->Crud->message('The user could not be deleted. Please, try again.', false);
         }
         return $this->redirect(array('action' => 'index'));
     }
@@ -150,11 +150,11 @@ class UsersController extends AppController {
                 unset($permiso['Permission']['id']);
                 $user = array_merge($data['User'], $data['Role'], $permiso['Permission']);
                 if ($this->Auth->login($user)) {
-                    print Crud::message('Acceso concedido');
+                    print $this->Crud->message('Acceso concedido');
                     return $this->redirect($this->Auth->redirectUrl());
                 }
             }
-            print Crud::message('Usuario y/o Password invalido', FALSE);
+            print $this->Crud->message('Usuario y/o Password invalido', FALSE);
         }
     }
 
@@ -180,7 +180,7 @@ class UsersController extends AppController {
                 return true;
             } else {
                 if ($this->Auth->user('id')) {
-                    echo Crud::message(__('Acceso denegado, no cuanta con los permisos necesarios'), false);
+                    echo $this->Crud->message(__('Acceso denegado, no cuanta con los permisos necesarios'), false);
                 }
             }
         }

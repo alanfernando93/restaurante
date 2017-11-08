@@ -88,10 +88,10 @@ class OrdersController extends AppController {
                     $this->MetaOrder->create();
                     $this->MetaOrder->save($value);
                 }
-                Crud::message('The pedido has been saved.');
+                $this->Crud->message('The pedido has been saved.');
                 return $this->redirect(array('action' => 'index'));
             } catch (Exception $ex) {
-                Crud::message('The pedido could not be saved. Please, try again.');
+                $this->Crud->message('The pedido could not be saved. Please, try again.');
             }
         }
         $users = $this->Order->User->find('list');
@@ -146,10 +146,10 @@ class OrdersController extends AppController {
                     $this->MetaOrder->create();
                     $this->MetaOrder->save($value);
                 }
-                Crud::message('The pedido has been saved.');
+                $this->Crud->message('The pedido has been saved.');
                 return $this->redirect(array('action' => 'index'));
             } catch (Exception $ex) {
-                Crud::message('The pedido could not be saved. Please, try again.');
+                $this->Crud->message('The pedido could not be saved. Please, try again.');
             }
         } else {
             $options = array('conditions' => array('Order.' . $this->Order->primaryKey => $id));
@@ -192,9 +192,9 @@ class OrdersController extends AppController {
                 $this->MetaOrder->delete();
             }
             $this->Order->delete();
-            print Crud::message('The order has been deleted.');
+            print $this->Crud->message('The order has been deleted.');
         } catch (Exception $ex) {
-            print Crud::message('The order could not be deleted. Please, try again.', false);
+            print $this->Crud->message('The order could not be deleted. Please, try again.', false);
         }
         return $this->redirect(array('action' => 'index'));
     }

@@ -58,7 +58,7 @@
         </dd>
         <dt><?php echo __('Role'); ?></dt>
         <dd>
-            <?php echo $this->Html->link($user['Role']['descripcion'], array('controller' => 'roles', 'action' => 'view', $user['Role']['id'])); ?>
+            <?php echo $this->Html->link($user['Role']['role'], array('controller' => 'roles', 'action' => 'view', $user['Role']['id'])); ?>
             &nbsp;
         </dd>
     </dl>

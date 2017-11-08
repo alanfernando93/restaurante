@@ -33,7 +33,7 @@ App::uses('Controller', 'Controller');
 class AppController extends Controller {
 
     public $layout = 'web_body';
-    public $helpers = array('Html' => array('className' => 'MyHtml'));
+    public $helpers = array('Html' => array('className' => 'MyHtml'),'Crud','Acordion','Functions');
     public $components = array(
         'Cookie',
         'Session',

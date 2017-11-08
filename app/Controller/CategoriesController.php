@@ -60,10 +60,10 @@ class CategoriesController extends AppController {
         if ($this->request->is('post')) {
             $this->Category->create();
             if ($this->Category->save($this->request->data)) {
-                print Crud::message('The category has been saved.');
+                print $this->Crud->message('The category has been saved.');
                 return $this->redirect(array('action' => 'index'));
             } else {
-                print Crud::message('The category could not be saved. Please, try again.', false);
+                print $this->Crud->message('The category could not be saved. Please, try again.', false);
             }
         }
         $users = $this->Category->User->find('list');
@@ -83,10 +83,10 @@ class CategoriesController extends AppController {
         }
         if ($this->request->is(array('post', 'put'))) {
             if ($this->Category->save($this->request->data)) {
-                print Crud::message('The category has been saved.');
+                print $this->Crud->message('The category has been saved.');
                 return $this->redirect(array('action' => 'index'));
             } else {
-                print Crud::message('The category could not be saved. Please, try again.', false);
+                print $this->Crud->message('The category could not be saved. Please, try again.', false);
             }
         } else {
             $options = array('conditions' => array('Category.' . $this->Category->primaryKey => $id));
@@ -110,9 +110,9 @@ class CategoriesController extends AppController {
         }
         $this->request->onlyAllow('post', 'delete');
         if ($this->Category->delete()) {
-            print Crud::message('The category has been deleted.');
+            print $this->Crud->message('The category has been deleted.');
         } else {
-            print Crud::message('The category could not be deleted. Please, try again.', false);
+            print $this->Crud->message('The category could not be deleted. Please, try again.', false);
         }
         return $this->redirect(array('action' => 'index'));
     }

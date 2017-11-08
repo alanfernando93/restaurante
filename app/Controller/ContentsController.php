@@ -85,10 +85,10 @@ class ContentsController extends AppController {
         if ($this->request->is('post')) {
             $this->Content->create();
             if ($this->Content->save($this->request->data)) {
-                print Crud::message(__('The content has been saved.'));
+                print $this->Crud->message(__('The content has been saved.'));
                 return $this->redirect(array('action' => 'index'));
             } else {
-                print Crud::message(__('The content could not be saved. Please, try again.'), FALSE);
+                print $this->Crud->message(__('The content could not be saved. Please, try again.'), FALSE);
             }
         }
     }
@@ -106,10 +106,10 @@ class ContentsController extends AppController {
         }
         if ($this->request->is(array('post', 'put'))) {
             if ($this->Content->save($this->request->data)) {
-                print Crud::message(__('The content has been saved.'));
+                print $this->Crud->message(__('The content has been saved.'));
                 return $this->redirect(array('action' => 'index'));
             } else {
-                print Crud::message(__('The content could not be saved. Please, try again.'), FALSE);
+                print $this->Crud->message(__('The content could not be saved. Please, try again.'), FALSE);
             }
         } else {
             $options = array('conditions' => array('Content.' . $this->Content->primaryKey => $id));
@@ -131,9 +131,9 @@ class ContentsController extends AppController {
         }
         $this->request->onlyAllow('post', 'delete');
         if ($this->Content->delete()) {
-            print Crud::message(__('The content has been deleted.'));
+            print $this->Crud->message(__('The content has been deleted.'));
         } else {
-            print Crud::message(__('The content could not be deleted. Please, try again.'), false);
+            print $this->Crud->message(__('The content could not be deleted. Please, try again.'), false);
         }
         return $this->redirect(array('action' => 'index'));
     }

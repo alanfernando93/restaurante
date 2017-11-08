@@ -9,7 +9,7 @@ $this->Paginator->options(array(
 <div id="contenedor">
     <h2><?php echo __('Permissions'); ?></h2>
     <div class="row-fluid" style="padding-bottom: 8px;">
-        <?php echo Crud::addNew(__('Añadir'), 'add', 'icon-plus-2'); ?>
+        <?php echo $this->Crud->addNew(__('Añadir'), 'add', 'icon-plus-2'); ?>
     </div> 
     <div class="table-responsive">
         <table class="table table-striped">
@@ -30,9 +30,9 @@ $this->Paginator->options(array(
                         <td><?php echo h($permission['Permission']['created']); ?>&nbsp;</td>
                         <td><?php echo h($permission['Permission']['modified']); ?>&nbsp;</td>
                         <td class="tableActs">                     
-                            <?php echo Crud::Imag('View', 'view', $permission['Permission']['id'], "&#xe081;"); ?>
-                            <?php echo Crud::Imag('Edit', 'edit', $permission['Permission']['id'], "&#xe1db;"); ?>
-                            <?php echo Crud::Imag('Delete', 'delete', $permission['Permission']['id'], "&#xe05d;", true); ?>
+                            <?php echo $this->Crud->Imag('View', 'view', $permission['Permission']['id'], "&#xe081;"); ?>
+                            <?php echo $this->Crud->Imag('Edit', 'edit', $permission['Permission']['id'], "&#xe1db;"); ?>
+                            <?php echo $this->Crud->Imag('Delete', 'delete', $permission['Permission']['id'], "&#xe05d;", true); ?>
                         </td>
                     </tr>
                 <?php endforeach; ?>
@@ -44,6 +44,6 @@ $this->Paginator->options(array(
             <span class="sr-only">100% Complete</span>
         </div>
     </div>
-    <?php Paginator::printP(); ?>
+    <?php $this->Crud->printPaginator(); ?>
     <?php echo $this->Js->writeBuffer(); ?>
 </div>
