@@ -60,10 +60,10 @@ class RolesController extends AppController {
         if ($this->request->is('post')) {
             $this->Role->create();
             if ($this->Role->save($this->request->data)) {
-                print $this->Crud->message('The role has been saved.');
+                $this->Session->setFlash(__('The role has been saved.'),'default', array('class' => "alert alert-success"));
                 return $this->redirect(array('action' => 'index'));
             } else {
-                print $this->Crud->message('The role could not be saved. Please, try again.', false);
+                $this->Session->setFlash(__('The role could not be saved. Please, try again.'), 'default', array('class' => "alert alert-danger"));
             }
         }
         $permissions = $this->Role->Permission->find('list');
@@ -83,10 +83,10 @@ class RolesController extends AppController {
         }
         if ($this->request->is(array('post', 'put'))) {
             if ($this->Role->save($this->request->data)) {
-                print $this->Crud->message('The role has been saved.');
+                $this->Session->setFlash(__('The role has been saved.'),'default', array('class' => "alert alert-success"));
                 return $this->redirect(array('action' => 'index'));
             } else {
-                print $this->Crud->message('The role could not be saved. Please, try again.', false);
+                $this->Session->setFlash(__('The role could not be saved. Please, try again.'), 'default', array('class' => "alert alert-danger"));
             }
         } else {
             $options = array('conditions' => array('Role.' . $this->Role->primaryKey => $id));
@@ -110,9 +110,9 @@ class RolesController extends AppController {
         }
         $this->request->onlyAllow('post', 'delete');
         if ($this->Role->delete()) {
-            print $this->Crud->message('The role has been deleted.');
+            $this->Session->setFlash(__('The role has been deleted.'),'default', array('class' => "alert alert-success"));
         } else {
-            print $this->Crud->message('The role could not be deleted. Please, try again.', false);
+            $this->Session->setFlash(__('The role could not be deleted. Please, try again.'), 'default', array('class' => "alert alert-danger"));
         }
         return $this->redirect(array('action' => 'index'));
     }

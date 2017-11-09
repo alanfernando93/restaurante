@@ -60,10 +60,10 @@ class PermissionsController extends AppController {
         if ($this->request->is('post')) {
             $this->Permission->create();
             if ($this->Permission->save($this->request->data)) {
-                print $this->Crud->message('The permission has been saved.');
+                $this->Session->setFlash(__('The permission has been saved.'),'default', array('class' => "alert alert-success"));
                 return $this->redirect(array('action' => 'index'));
             } else {
-                print $this->Crud->message('The permission could not be saved. Please, try again.', false);
+                $this->Session->setFlash(__('The permission could not be saved. Please, try again.'), 'default', array('class' => "alert alert-danger"));
             }
         }
         $roles = $this->Permission->Role->find('list');
@@ -83,10 +83,10 @@ class PermissionsController extends AppController {
         }
         if ($this->request->is(array('post', 'put'))) {
             if ($this->Permission->save($this->request->data)) {
-                print $this->Crud->message('The permission has been saved.');
+                $this->Session->setFlash(__('The permission has been saved.'),'default', array('class' => "alert alert-success"));
                 return $this->redirect(array('action' => 'index'));
             } else {
-                print $this->Crud->message('The permission could not be saved. Please, try again.', false);
+                $this->Session->setFlash(__('The permission could not be saved. Please, try again.'), 'default', array('class' => "alert alert-danger"));
             }
         } else {
             $options = array('conditions' => array('Permission.' . $this->Permission->primaryKey => $id));
@@ -110,9 +110,9 @@ class PermissionsController extends AppController {
         }
         $this->request->onlyAllow('post', 'delete');
         if ($this->Permission->delete()) {
-            print $this->Crud->message('The permission has been deleted.');
+            $this->Session->setFlash(__('The permission has been deleted.'),'default', array('class' => "alert alert-success"));
         } else {
-            print $this->Crud->message('The permission could not be deleted. Please, try again.', false);
+            $this->Session->setFlash(__('The permission could not be deleted. Please, try again.'), 'default', array('class' => "alert alert-danger"));
         }
         return $this->redirect(array('action' => 'index'));
     }

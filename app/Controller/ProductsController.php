@@ -60,10 +60,10 @@ class ProductsController extends AppController {
         if ($this->request->is('post')) {
             $this->Product->create();
             if ($this->Product->save($this->request->data)) {
-                print $this->Crud->message('The product has been saved.');
+                $this->Session->setFlash(__('The product has been saved.'),'default', array('class' => "alert alert-success"));
                 return $this->redirect(array('action' => 'index'));
             } else {
-                print $this->Crud->message('The product could not be saved. Please, try again.', false);
+                $this->Session->setFlash(__('The product could not be saved. Please, try again.'), 'default', array('class' => "alert alert-danger"));
             }
         }
         $categories = $this->Product->Category->find('list');
@@ -84,10 +84,10 @@ class ProductsController extends AppController {
         }
         if ($this->request->is(array('post', 'put'))) {
             if ($this->Product->save($this->request->data)) {
-                print $this->Crud->message('The product has been saved.');
+                $this->Session->setFlash(__('The product has been saved.'),'default', array('class' => "alert alert-success"));
                 return $this->redirect(array('action' => 'index'));
             } else {
-                print $this->Crud->message('The product could not be saved. Please, try again.', false);
+                $this->Session->setFlash(__('The product could not be saved. Please, try again.'), 'default', array('class' => "alert alert-danger"));
                 $options = array('conditions' => array('Product.' . $this->Product->primaryKey => $id));
                 $this->request->data = $this->Product->find('first', $options);
             }
@@ -114,9 +114,9 @@ class ProductsController extends AppController {
         }
         $this->request->onlyAllow('post', 'delete');
         if ($this->Product->delete()) {
-            print $this->Crud->message('The product has been deleted.');
+            $this->Session->setFlash(__('The product has been deleted.'),'default', array('class' => "alert alert-success"));
         } else {
-            print $this->Crud->message('The product could not be deleted. Please, try again.', false);
+            $this->Session->setFlash(__('The product could not be deleted. Please, try again.'), 'default', array('class' => "alert alert-danger"));
         }
         return $this->redirect(array('action' => 'index'));
     }

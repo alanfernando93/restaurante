@@ -29160,3 +29160,2198 @@ Stack Trace:
 #3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2017-11-08 02:09:20 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-08 02:09:25 Error: Fatal Error (1): Call to a member function message() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 157]
+2017-11-08 02:09:25 Error: [FatalErrorException] Call to a member function message() on null
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 157)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 157, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 157, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-08 02:09:36 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-08 02:09:41 Error: Fatal Error (1): Call to a member function message() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 157]
+2017-11-08 02:09:41 Error: [FatalErrorException] Call to a member function message() on null
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 157)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 157, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 157, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-08 02:11:05 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-08 02:11:09 Error: Fatal Error (1): Call to a member function message() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 153]
+2017-11-08 02:11:09 Error: [FatalErrorException] Call to a member function message() on null
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 153)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 153, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 153, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-08 02:11:14 Error: Fatal Error (1): Call to a member function message() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 153]
+2017-11-08 02:11:14 Error: [FatalErrorException] Call to a member function message() on null
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 153)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 153, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 153, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-08 02:11:15 Error: Fatal Error (1): Call to a member function message() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 153]
+2017-11-08 02:11:15 Error: [FatalErrorException] Call to a member function message() on null
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 153)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 153, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 153, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-08 02:16:14 Error: Fatal Error (1): Call to a member function message() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 153]
+2017-11-08 02:16:14 Error: [FatalErrorException] Call to a member function message() on null
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 153)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 153, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 153, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-08 02:16:16 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-08 02:16:16 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-08 02:16:22 Error: Fatal Error (1): Call to a member function message() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 157]
+2017-11-08 02:16:22 Error: [FatalErrorException] Call to a member function message() on null
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 157)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 157, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 157, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-08 02:16:26 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-08 02:16:26 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-08 02:16:27 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-08 02:16:31 Error: Fatal Error (1): Call to a member function message() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 157]
+2017-11-08 02:16:31 Error: [FatalErrorException] Call to a member function message() on null
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 157)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 157, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 157, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-08 02:19:39 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-08 02:19:39 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-08 02:19:40 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-08 02:19:40 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-08 02:19:48 Error: Fatal Error (1): Call to a member function message() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 157]
+2017-11-08 02:19:48 Error: [FatalErrorException] Call to a member function message() on null
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 157)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 157, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 157, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-08 02:19:52 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-08 02:19:52 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-08 02:19:59 Error: Fatal Error (1): Call to a member function message() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 153]
+2017-11-08 02:19:59 Error: [FatalErrorException] Call to a member function message() on null
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 153)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 153, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 153, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-08 09:10:38 Error: Fatal Error (1): Call to a member function message() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 153]
+2017-11-08 09:10:38 Error: [FatalErrorException] Call to a member function message() on null
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 153)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 153, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 153, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-08 09:18:20 Error: Fatal Error (1): Call to a member function message() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 153]
+2017-11-08 09:18:20 Error: [FatalErrorException] Call to a member function message() on null
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 153)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 153, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 153, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-08 09:18:23 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-08 09:18:23 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-08 09:18:26 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-08 09:18:26 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-08 09:18:34 Error: Fatal Error (1): Call to a member function message() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 153]
+2017-11-08 09:18:34 Error: [FatalErrorException] Call to a member function message() on null
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 153)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 153, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 153, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-08 09:22:41 Error: Fatal Error (1): Call to a member function message() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 153]
+2017-11-08 09:22:41 Error: [FatalErrorException] Call to a member function message() on null
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 153)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 153, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 153, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-08 09:22:43 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-08 09:22:43 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-08 09:22:49 Error: Fatal Error (1): Call to a member function message() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 153]
+2017-11-08 09:22:49 Error: [FatalErrorException] Call to a member function message() on null
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 153)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 153, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 153, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-08 09:53:30 Error: Fatal Error (1): Call to a member function message() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 157]
+2017-11-08 09:53:30 Error: [FatalErrorException] Call to a member function message() on null
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 157)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 157, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 157, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-08 09:53:39 Error: Fatal Error (1): Call to a member function message() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 157]
+2017-11-08 09:53:39 Error: [FatalErrorException] Call to a member function message() on null
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 157)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 157, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 157, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-08 09:53:42 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-08 09:53:42 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-08 09:53:46 Error: Fatal Error (1): Call to a member function message() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 157]
+2017-11-08 09:53:47 Error: [FatalErrorException] Call to a member function message() on null
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 157)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 157, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 157, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-08 09:53:50 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-08 12:26:09 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-09 01:02:18 Error: Fatal Error (1): Call to a member function message() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 157]
+2017-11-09 01:02:18 Error: [FatalErrorException] Call to a member function message() on null
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 157)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 157, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 157, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-09 01:04:09 Error: Fatal Error (1): Call to a member function message() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 157]
+2017-11-09 01:04:09 Error: [FatalErrorException] Call to a member function message() on null
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 157)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 157, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 157, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-09 01:05:23 Error: Fatal Error (1): Call to a member function message() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 157]
+2017-11-09 01:05:23 Error: [FatalErrorException] Call to a member function message() on null
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 157)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 157, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 157, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-09 01:05:25 Error: [MissingControllerException] Controller class Login.Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Login.Controller',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/admin/login.
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-09 01:05:37 Error: [MissingControllerException] Controller class Login.Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Login.Controller',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/admin/login.
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-09 01:05:38 Error: [MissingControllerException] Controller class Login.Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Login.Controller',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/admin/login.
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-09 01:05:40 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-09 01:05:43 Error: Fatal Error (1): Call to a member function message() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 157]
+2017-11-09 01:05:43 Error: [FatalErrorException] Call to a member function message() on null
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 157)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 157, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 157, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-09 01:05:48 Error: Fatal Error (1): Call to a member function message() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 157]
+2017-11-09 01:05:48 Error: [FatalErrorException] Call to a member function message() on null
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 157)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 157, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 157, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-09 01:05:49 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-09 01:05:49 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-09 01:05:51 Error: Fatal Error (1): Call to a member function message() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 157]
+2017-11-09 01:05:51 Error: [FatalErrorException] Call to a member function message() on null
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 157)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 157, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 157, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-09 01:06:35 Error: Fatal Error (1): Call to a member function message() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 157]
+2017-11-09 01:06:35 Error: [FatalErrorException] Call to a member function message() on null
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 157)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 157, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 157, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-09 01:06:36 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-09 01:06:37 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-09 01:06:38 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-09 01:06:38 Error: Fatal Error (1): Call to a member function message() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 157]
+2017-11-09 01:06:38 Error: [FatalErrorException] Call to a member function message() on null
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 157)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 157, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 157, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-09 01:06:41 Error: Fatal Error (1): Call to a member function message() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 157]
+2017-11-09 01:06:41 Error: [FatalErrorException] Call to a member function message() on null
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 157)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 157, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 157, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-09 01:06:43 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-09 01:06:44 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-09 01:06:44 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-09 01:06:46 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-09 01:07:21 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-09 01:07:35 Error: Fatal Error (1): Call to a member function message() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 157]
+2017-11-09 01:07:35 Error: [FatalErrorException] Call to a member function message() on null
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 157)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 157, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 157, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-09 01:08:28 Error: Fatal Error (1): Call to a member function message() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 157]
+2017-11-09 01:08:28 Error: [FatalErrorException] Call to a member function message() on null
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 157)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 157, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 157, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-09 01:08:30 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-09 01:08:30 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-09 01:08:32 Error: Fatal Error (1): Call to a member function message() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 157]
+2017-11-09 01:08:32 Error: [FatalErrorException] Call to a member function message() on null
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 157)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 157, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 157, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-09 01:08:58 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-09 01:08:58 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-09 01:08:59 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-09 01:08:59 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-09 01:09:00 Error: Fatal Error (1): Call to a member function message() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 157]
+2017-11-09 01:09:00 Error: [FatalErrorException] Call to a member function message() on null
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 157)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 157, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 157, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-09 01:09:15 Error: Fatal Error (1): Call to a member function message() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 157]
+2017-11-09 01:09:15 Error: [FatalErrorException] Call to a member function message() on null
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 157)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 157, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 157, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-09 01:11:05 Error: Fatal Error (1): Call to a member function message() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 157]
+2017-11-09 01:11:05 Error: [FatalErrorException] Call to a member function message() on null
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 157)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 157, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 157, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-09 01:11:07 Error: Fatal Error (1): Call to a member function message() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 157]
+2017-11-09 01:11:07 Error: [FatalErrorException] Call to a member function message() on null
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 157)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 157, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 157, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-09 01:11:07 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-09 01:11:08 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-09 01:11:09 Error: Fatal Error (1): Call to a member function message() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 157]
+2017-11-09 01:11:09 Error: [FatalErrorException] Call to a member function message() on null
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 157)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 157, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 157, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-09 01:16:16 Error: Fatal Error (1): Call to a member function message() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 157]
+2017-11-09 01:16:16 Error: [FatalErrorException] Call to a member function message() on null
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 157)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 157, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 157, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-09 01:16:17 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-09 01:16:17 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-09 01:16:18 Error: Fatal Error (1): Call to a member function message() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 157]
+2017-11-09 01:16:18 Error: [FatalErrorException] Call to a member function message() on null
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 157)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 157, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 157, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-09 01:17:26 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/css/bootstrap.css
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-09 01:18:31 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-09 01:18:31 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-09 01:18:31 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/css/bootstrap.css
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-09 01:18:36 Error: Fatal Error (1): Call to a member function message() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 158]
+2017-11-09 01:18:36 Error: [FatalErrorException] Call to a member function message() on null
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 158)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 158, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 158, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-09 01:18:38 Error: Fatal Error (1): Call to a member function message() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 158]
+2017-11-09 01:18:38 Error: [FatalErrorException] Call to a member function message() on null
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 158)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 158, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 158, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-09 01:18:47 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-09 01:18:47 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-09 01:20:02 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-09 01:31:44 Error: Fatal Error (1): Call to a member function message() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 156]
+2017-11-09 01:31:44 Error: [FatalErrorException] Call to a member function message() on null
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 156)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 156, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 156, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-09 01:31:48 Error: Fatal Error (1): Call to a member function message() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 156]
+2017-11-09 01:31:48 Error: [FatalErrorException] Call to a member function message() on null
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 156)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 156, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 156, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-09 01:32:00 Error: Fatal Error (1): Call to a member function message() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 156]
+2017-11-09 01:32:00 Error: [FatalErrorException] Call to a member function message() on null
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 156)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 156, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 156, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-09 01:32:05 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-09 01:32:08 Error: Fatal Error (1): Call to a member function message() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 161]
+2017-11-09 01:32:08 Error: [FatalErrorException] Call to a member function message() on null
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 161)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 161, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 161, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-09 01:33:00 Error: Fatal Error (1): Call to a member function message() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 162]
+2017-11-09 01:33:00 Error: [FatalErrorException] Call to a member function message() on null
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 162)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 162, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 162, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-09 01:33:23 Error: Fatal Error (1): Call to a member function message() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 162]
+2017-11-09 01:33:23 Error: [FatalErrorException] Call to a member function message() on null
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 162)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 162, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 162, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-09 01:33:25 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-09 01:33:25 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-09 01:33:27 Error: Fatal Error (1): Call to a member function message() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 162]
+2017-11-09 01:33:27 Error: [FatalErrorException] Call to a member function message() on null
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 162)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 162, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 162, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-09 01:33:57 Error: Fatal Error (1): Call to a member function message() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 162]
+2017-11-09 01:33:57 Error: [FatalErrorException] Call to a member function message() on null
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 162)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 162, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 162, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-09 01:34:00 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-09 01:34:00 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-09 01:34:02 Error: Fatal Error (1): Call to a member function message() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 162]
+2017-11-09 01:34:02 Error: [FatalErrorException] Call to a member function message() on null
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 162)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 162, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 162, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-09 01:34:17 Error: Fatal Error (1): Call to a member function message() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 162]
+2017-11-09 01:34:17 Error: [FatalErrorException] Call to a member function message() on null
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 162)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 162, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 162, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-09 01:35:38 Error: Fatal Error (1): Call to a member function message() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 162]
+2017-11-09 01:35:38 Error: [FatalErrorException] Call to a member function message() on null
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 162)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 162, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 162, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-09 01:35:40 Error: Fatal Error (1): Call to a member function message() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 162]
+2017-11-09 01:35:40 Error: [FatalErrorException] Call to a member function message() on null
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 162)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 162, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 162, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-09 01:35:42 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-09 01:35:42 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-09 01:38:40 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-09 01:38:40 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-09 01:38:47 Error: Fatal Error (1): Call to a member function message() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 162]
+2017-11-09 01:38:47 Error: [FatalErrorException] Call to a member function message() on null
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 162)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 162, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 162, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-09 01:38:59 Error: Fatal Error (1): Call to a member function message() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 162]
+2017-11-09 01:38:59 Error: [FatalErrorException] Call to a member function message() on null
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 162)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 162, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 162, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-09 01:43:53 Error: Fatal Error (1): Call to undefined method AuthComponent::setUser() in [/var/www/html/restaurante/app/Controller/UsersController.php, line 156]
+2017-11-09 01:43:53 Error: [FatalErrorException] Call to undefined method AuthComponent::setUser()
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/var/www/html/r...', 156)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/var/www/html/r...', 156, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/var/www/html/r...', 156, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-09 01:45:10 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-09 01:45:14 Error: Fatal Error (1): Call to a member function message() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 163]
+2017-11-09 01:45:14 Error: [FatalErrorException] Call to a member function message() on null
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 163)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 163, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 163, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-09 02:04:10 Error: Fatal Error (1): Call to a member function message() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 157]
+2017-11-09 02:04:10 Error: [FatalErrorException] Call to a member function message() on null
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 157)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 157, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 157, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-09 02:04:18 Error: Fatal Error (1): Call to a member function message() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 161]
+2017-11-09 02:04:18 Error: [FatalErrorException] Call to a member function message() on null
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 161)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 161, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 161, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-09 02:04:19 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-09 02:04:19 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-09 02:04:22 Error: Fatal Error (1): Call to a member function message() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 161]
+2017-11-09 02:04:22 Error: [FatalErrorException] Call to a member function message() on null
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 161)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 161, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 161, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-09 02:04:31 Error: Fatal Error (1): Call to a member function message() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 157]
+2017-11-09 02:04:31 Error: [FatalErrorException] Call to a member function message() on null
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 157)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 157, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 157, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-09 02:04:37 Error: Fatal Error (1): Call to a member function message() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 157]
+2017-11-09 02:04:37 Error: [FatalErrorException] Call to a member function message() on null
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 157)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 157, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 157, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-09 02:08:01 Error: Fatal Error (1): Call to a member function message() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 157]
+2017-11-09 02:08:01 Error: [FatalErrorException] Call to a member function message() on null
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 157)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 157, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 157, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-09 02:08:03 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-09 02:08:03 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-09 02:08:07 Error: Fatal Error (1): Call to a member function message() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 161]
+2017-11-09 02:08:07 Error: [FatalErrorException] Call to a member function message() on null
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 161)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 161, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 161, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-09 02:21:50 Error: Fatal Error (1): Call to a member function message() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 162]
+2017-11-09 02:21:50 Error: [FatalErrorException] Call to a member function message() on null
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 162)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 162, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 162, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-09 02:21:53 Error: Fatal Error (1): Call to a member function message() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 162]
+2017-11-09 02:21:53 Error: [FatalErrorException] Call to a member function message() on null
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 162)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 162, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 162, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-09 02:21:55 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-09 02:21:55 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-09 02:21:56 Error: Fatal Error (1): Call to a member function message() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 162]
+2017-11-09 02:21:56 Error: [FatalErrorException] Call to a member function message() on null
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 162)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 162, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 162, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-09 02:21:58 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-09 02:23:34 Error: Fatal Error (1): Call to a member function message() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 158]
+2017-11-09 02:23:34 Error: [FatalErrorException] Call to a member function message() on null
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 158)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 158, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 158, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-09 02:28:54 Error: Fatal Error (1): Call to a member function message() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 158]
+2017-11-09 02:28:54 Error: [FatalErrorException] Call to a member function message() on null
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 158)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 158, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 158, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-09 02:28:55 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-09 02:28:55 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-09 02:28:59 Error: Fatal Error (1): Call to a member function message() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 158]
+2017-11-09 02:28:59 Error: [FatalErrorException] Call to a member function message() on null
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 158)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 158, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 158, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-09 02:38:06 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-09 02:38:07 Error: Fatal Error (1): Call to a member function showMessage() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 162]
+2017-11-09 02:38:07 Error: [FatalErrorException] Call to a member function showMessage() on null
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 162)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 162, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 162, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-09 02:38:11 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-09 02:38:11 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-09 02:38:15 Error: Fatal Error (1): Call to a member function showMessage() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 158]
+2017-11-09 02:38:15 Error: [FatalErrorException] Call to a member function showMessage() on null
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 158)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 158, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 158, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-09 02:40:57 Error: Fatal Error (1): Call to a member function showMessage() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 158]
+2017-11-09 02:40:57 Error: [FatalErrorException] Call to a member function showMessage() on null
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 158)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 158, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 158, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-09 02:40:59 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-09 02:40:59 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-09 02:41:03 Error: Fatal Error (1): Call to a member function showMessage() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 158]
+2017-11-09 02:41:03 Error: [FatalErrorException] Call to a member function showMessage() on null
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 158)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 158, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 158, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-09 02:41:11 Error: Fatal Error (1): Call to a member function counter() on null in [/var/www/html/restaurante/app/View/Helper/CrudHelper.php, line 71]
+2017-11-09 02:41:11 Error: [FatalErrorException] Call to a member function counter() on null
+Request URL: /restaurante/admin/categories
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 71)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 71, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 71, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-09 02:41:13 Error: Fatal Error (1): Call to a member function counter() on null in [/var/www/html/restaurante/app/View/Helper/CrudHelper.php, line 71]
+2017-11-09 02:41:13 Error: [FatalErrorException] Call to a member function counter() on null
+Request URL: /restaurante/admin/categories
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 71)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 71, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 71, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-09 02:41:15 Error: Fatal Error (1): Call to a member function counter() on null in [/var/www/html/restaurante/app/View/Helper/CrudHelper.php, line 71]
+2017-11-09 02:41:15 Error: [FatalErrorException] Call to a member function counter() on null
+Request URL: /restaurante/admin/products
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 71)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 71, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 71, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-09 02:41:16 Error: Fatal Error (1): Call to a member function counter() on null in [/var/www/html/restaurante/app/View/Helper/CrudHelper.php, line 71]
+2017-11-09 02:41:16 Error: [FatalErrorException] Call to a member function counter() on null
+Request URL: /restaurante/admin/products
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 71)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 71, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 71, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-09 02:41:18 Error: Fatal Error (1): Call to a member function counter() on null in [/var/www/html/restaurante/app/View/Helper/CrudHelper.php, line 71]
+2017-11-09 02:41:18 Error: [FatalErrorException] Call to a member function counter() on null
+Request URL: /restaurante/admin/products
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 71)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 71, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 71, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-09 02:41:20 Error: Fatal Error (1): Call to a member function counter() on null in [/var/www/html/restaurante/app/View/Helper/CrudHelper.php, line 71]
+2017-11-09 02:41:20 Error: [FatalErrorException] Call to a member function counter() on null
+Request URL: /restaurante/admin/permissions
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 71)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 71, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 71, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-09 02:41:22 Error: Fatal Error (1): Call to a member function counter() on null in [/var/www/html/restaurante/app/View/Helper/CrudHelper.php, line 71]
+2017-11-09 02:41:22 Error: [FatalErrorException] Call to a member function counter() on null
+Request URL: /restaurante/admin/categories
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 71)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 71, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 71, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-09 02:41:43 Error: Fatal Error (1): Call to a member function counter() on null in [/var/www/html/restaurante/app/View/Helper/CrudHelper.php, line 71]
+2017-11-09 02:41:43 Error: [FatalErrorException] Call to a member function counter() on null
+Request URL: /restaurante/admin/categories
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 71)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 71, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 71, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-09 02:44:26 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-09 02:44:32 Error: Fatal Error (1): Call to a member function showMessage() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 162]
+2017-11-09 02:44:32 Error: [FatalErrorException] Call to a member function showMessage() on null
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 162)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 162, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 162, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-09 02:44:34 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-09 02:44:34 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-09 02:44:38 Error: Fatal Error (1): Call to a member function showMessage() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 162]
+2017-11-09 02:44:38 Error: [FatalErrorException] Call to a member function showMessage() on null
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 162)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 162, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 162, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-09 02:44:40 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-09 02:44:40 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-09 02:44:43 Error: Fatal Error (1): Call to a member function showMessage() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 162]
+2017-11-09 02:44:43 Error: [FatalErrorException] Call to a member function showMessage() on null
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 162)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 162, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 162, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-09 02:44:45 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-09 02:44:49 Error: Fatal Error (1): Call to a member function showMessage() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 162]
+2017-11-09 02:44:49 Error: [FatalErrorException] Call to a member function showMessage() on null
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 162)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 162, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 162, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-09 02:44:51 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-09 02:44:55 Error: Fatal Error (1): Call to a member function showMessage() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 162]
+2017-11-09 02:44:55 Error: [FatalErrorException] Call to a member function showMessage() on null
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 162)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 162, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 162, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-09 02:45:48 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-09 02:45:52 Error: Fatal Error (1): Call to a member function showMessage() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 162]
+2017-11-09 02:45:52 Error: [FatalErrorException] Call to a member function showMessage() on null
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 162)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 162, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 162, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-09 02:45:58 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-09 02:46:09 Error: Fatal Error (1): Call to a member function showMessage() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 162]
+2017-11-09 02:46:09 Error: [FatalErrorException] Call to a member function showMessage() on null
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 162)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 162, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 162, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-09 02:46:12 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-09 02:46:12 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-09 02:46:17 Error: Fatal Error (1): Call to a member function showMessage() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 162]
+2017-11-09 02:46:17 Error: [FatalErrorException] Call to a member function showMessage() on null
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 162)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 162, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 162, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-09 02:52:50 Error: Fatal Error (1): Call to a member function showMessage() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 162]
+2017-11-09 02:52:50 Error: [FatalErrorException] Call to a member function showMessage() on null
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 162)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 162, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 162, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-09 02:52:53 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-09 02:52:53 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-09 02:53:08 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-09 02:53:15 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-09 02:53:15 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-09 02:53:22 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-09 02:53:22 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-09 02:53:25 Error: Fatal Error (1): Call to a member function showMessage() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 162]
+2017-11-09 02:53:25 Error: [FatalErrorException] Call to a member function showMessage() on null
+Request URL: /restaurante/admin/login
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 162)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 162, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 162, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-09 02:53:38 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-09 02:53:39 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-09 02:55:06 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-09 02:55:06 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-09 02:55:22 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-09 02:55:22 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-09 02:55:26 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-09 02:55:26 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-09 02:55:50 Error: Fatal Error (1): Call to a member function showMessage() on null in [/var/www/html/restaurante/app/Controller/ProductsController.php, line 90]
+2017-11-09 02:55:50 Error: [FatalErrorException] Call to a member function showMessage() on null
+Request URL: /restaurante/admin/products/edit/5
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 90)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 90, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 90, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-09 02:56:31 Error: Fatal Error (1): Call to a member function showMessage() on null in [/var/www/html/restaurante/app/Controller/ProductsController.php, line 90]
+2017-11-09 02:56:31 Error: [FatalErrorException] Call to a member function showMessage() on null
+Request URL: /restaurante/admin/products/edit/5
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 90)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 90, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 90, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-09 02:56:47 Error: Fatal Error (1): Call to a member function showMessage() on null in [/var/www/html/restaurante/app/Controller/ProductsController.php, line 90]
+2017-11-09 02:56:47 Error: [FatalErrorException] Call to a member function showMessage() on null
+Request URL: /restaurante/admin/products/edit/5
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 90)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 90, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 90, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-09 02:58:36 Error: Fatal Error (1): Call to a member function showMessage() on null in [/var/www/html/restaurante/app/Controller/ProductsController.php, line 90]
+2017-11-09 02:58:36 Error: [FatalErrorException] Call to a member function showMessage() on null
+Request URL: /restaurante/admin/products/edit/5
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 90)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 90, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 90, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-09 02:58:45 Error: Fatal Error (1): Call to a member function showMessage() on null in [/var/www/html/restaurante/app/Controller/ProductsController.php, line 90]
+2017-11-09 02:58:45 Error: [FatalErrorException] Call to a member function showMessage() on null
+Request URL: /restaurante/admin/products/edit/5
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 90)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 90, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 90, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-09 03:00:28 Error: Fatal Error (1): Call to a member function showMessage() on null in [/var/www/html/restaurante/app/Controller/ProductsController.php, line 90]
+2017-11-09 03:00:28 Error: [FatalErrorException] Call to a member function showMessage() on null
+Request URL: /restaurante/admin/products/edit/5
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 90)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 90, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 90, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-09 03:00:49 Error: Fatal Error (1): Call to a member function showMessage() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 87]
+2017-11-09 03:00:49 Error: [FatalErrorException] Call to a member function showMessage() on null
+Request URL: /restaurante/admin/users/edit/7
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 87)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 87, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 87, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-09 03:01:23 Error: Fatal Error (1): Call to a member function showMessage() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 87]
+2017-11-09 03:01:23 Error: [FatalErrorException] Call to a member function showMessage() on null
+Request URL: /restaurante/admin/users/edit/7
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 87)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 87, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 87, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-09 03:01:26 Error: Fatal Error (1): Call to a member function showMessage() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 87]
+2017-11-09 03:01:26 Error: [FatalErrorException] Call to a member function showMessage() on null
+Request URL: /restaurante/admin/users/edit/7
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 87)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 87, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 87, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-09 03:01:31 Error: Fatal Error (1): Call to a member function showMessage() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 87]
+2017-11-09 03:01:31 Error: [FatalErrorException] Call to a member function showMessage() on null
+Request URL: /restaurante/admin/users/edit/7
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 87)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 87, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 87, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-09 03:01:34 Error: Fatal Error (1): Call to a member function showMessage() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 87]
+2017-11-09 03:01:35 Error: [FatalErrorException] Call to a member function showMessage() on null
+Request URL: /restaurante/admin/users/edit/7
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 87)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 87, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 87, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-09 03:01:51 Error: Fatal Error (1): Call to a member function showMessage() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 87]
+2017-11-09 03:01:51 Error: [FatalErrorException] Call to a member function showMessage() on null
+Request URL: /restaurante/admin/users/edit/7
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 87)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 87, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 87, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-09 03:02:14 Error: Fatal Error (1): Call to a member function showMessage() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 87]
+2017-11-09 03:02:14 Error: [FatalErrorException] Call to a member function showMessage() on null
+Request URL: /restaurante/admin/users/edit/7
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 87)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 87, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 87, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-09 03:02:17 Error: Fatal Error (1): Call to a member function showMessage() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 87]
+2017-11-09 03:02:18 Error: [FatalErrorException] Call to a member function showMessage() on null
+Request URL: /restaurante/admin/users/edit/7
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 87)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 87, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 87, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-09 03:02:58 Error: Fatal Error (1): Call to a member function showMessage() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 87]
+2017-11-09 03:02:58 Error: [FatalErrorException] Call to a member function showMessage() on null
+Request URL: /restaurante/admin/users/edit/7
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 87)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 87, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 87, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-09 03:03:01 Error: Fatal Error (1): Call to a member function showMessage() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 87]
+2017-11-09 03:03:01 Error: [FatalErrorException] Call to a member function showMessage() on null
+Request URL: /restaurante/admin/users/edit/7
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 87)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 87, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 87, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-09 03:03:04 Error: Fatal Error (1): Call to a member function showMessage() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 87]
+2017-11-09 03:03:04 Error: [FatalErrorException] Call to a member function showMessage() on null
+Request URL: /restaurante/admin/users/edit/7
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 87)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 87, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 87, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-09 03:04:18 Error: Fatal Error (1): Call to a member function showMessage() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 87]
+2017-11-09 03:04:18 Error: [FatalErrorException] Call to a member function showMessage() on null
+Request URL: /restaurante/admin/users/edit/7
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 87)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 87, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 87, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-09 03:04:23 Error: Fatal Error (1): Call to a member function showMessage() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 87]
+2017-11-09 03:04:23 Error: [FatalErrorException] Call to a member function showMessage() on null
+Request URL: /restaurante/admin/users/edit/7
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 87)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 87, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 87, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-09 03:05:17 Error: Fatal Error (1): Call to a member function showMessage() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 87]
+2017-11-09 03:05:17 Error: [FatalErrorException] Call to a member function showMessage() on null
+Request URL: /restaurante/admin/users/edit/7
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 87)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 87, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 87, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-09 03:06:31 Error: Fatal Error (1): Call to a member function showMessage() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 87]
+2017-11-09 03:06:31 Error: [FatalErrorException] Call to a member function showMessage() on null
+Request URL: /restaurante/admin/users/edit/7
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 87)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 87, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 87, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-09 03:07:01 Error: Fatal Error (1): Call to a member function showMessage() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 87]
+2017-11-09 03:07:01 Error: [FatalErrorException] Call to a member function showMessage() on null
+Request URL: /restaurante/admin/users/edit/7
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 87)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 87, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 87, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-09 03:07:31 Error: Fatal Error (1): Call to a member function showMessage() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 87]
+2017-11-09 03:07:31 Error: [FatalErrorException] Call to a member function showMessage() on null
+Request URL: /restaurante/admin/users/edit/7
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 87)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 87, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 87, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-09 03:07:47 Error: Fatal Error (1): Call to a member function showMessage() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 87]
+2017-11-09 03:07:47 Error: [FatalErrorException] Call to a member function showMessage() on null
+Request URL: /restaurante/admin/users/edit/7
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 87)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 87, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 87, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-09 03:07:51 Error: Fatal Error (1): Call to a member function showMessage() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 87]
+2017-11-09 03:07:51 Error: [FatalErrorException] Call to a member function showMessage() on null
+Request URL: /restaurante/admin/users/edit/7
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 87)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 87, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 87, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-09 03:10:30 Error: Fatal Error (1): Call to a member function showMessage() on null in [/var/www/html/restaurante/app/Controller/UsersController.php, line 87]
+2017-11-09 03:10:30 Error: [FatalErrorException] Call to a member function showMessage() on null
+Request URL: /restaurante/admin/users/edit/7
+Stack Trace:
+#0 /var/www/html/restaurante/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/r...', 87)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/r...', 87, Array)
+#2 /var/www/html/restaurante/lib/Cake/Core/App.php(1033): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/r...', 87, Array)
+#3 /var/www/html/restaurante/lib/Cake/Core/App.php(1006): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-09 03:33:39 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-09 03:34:01 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-09 03:34:06 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-09 03:34:06 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-09 03:34:25 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-09 03:34:25 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-09 03:34:27 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-09 03:34:27 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-09 03:34:31 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-09 03:34:31 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /restaurante/js/docs.min.js
+Stack Trace:
+#0 /var/www/html/restaurante/app/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

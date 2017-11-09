@@ -16,7 +16,7 @@ class UsersController extends AppController {
      * @var array
      */
     public $components = array('RequestHandler', 'Session');
-    public $helpers = array('Html', 'Form', 'Time', 'Js');
+    public $helpers = array('Html', 'Form', 'Time', 'Js', 'Crud');
     public $paginate = array(
         'limit' => 3,
         'order' => array(
@@ -61,10 +61,10 @@ class UsersController extends AppController {
         if ($this->request->is('post')) {
             $this->User->create();
             if ($this->User->save($this->request->data)) {
-                print $this->Crud->message('The user has been saved.');
+                print $this->Session->setFlash(__('The user has been saved.'), 'success');
                 return $this->redirect(array('action' => 'index'));
             } else {
-                print $this->Crud->message('The user could not be saved. Please, try again.', false);
+                $this->Session->setFlash(__('The user could not be saved. Please, try again.'), 'danger');
             }
         }
         $roles = $this->User->Role->find('list');
@@ -84,10 +84,10 @@ class UsersController extends AppController {
         }
         if ($this->request->is(array('post', 'put'))) {
             if ($this->User->save($this->request->data)) {
-                print $this->Crud->message('The user has been saved.');
+                echo $this->Session->setFlash(__("The user has been saved."),'default', array('class' => "alert alert-success"));
                 return $this->redirect(array('action' => 'index'));
             } else {
-                print $this->Crud->message('The user could not be saved. Please, try again.', false);
+                $this->Session->setFlash(__('The user could not be saved. Please, try again.'), 'default', array('class' => "alert alert-danger"));
             }
         } else {
             $options = array('conditions' => array('User.' . $this->User->primaryKey => $id));
@@ -111,9 +111,9 @@ class UsersController extends AppController {
         }
         $this->request->onlyAllow('post', 'delete');
         if ($this->User->delete()) {
-            print $this->Crud->message('The user has been deleted.');
+            $this->Session->setFlash(__('The user has been deleted.'), 'default', array('class' => "alert alert-success"));
         } else {
-            print $this->Crud->message('The user could not be deleted. Please, try again.', false);
+            $this->Session->setFlash(__('The user could not be deleted. Please, try again.'), 'default', array('class' => "alert alert-danger"));
         }
         return $this->redirect(array('action' => 'index'));
     }
@@ -124,7 +124,7 @@ class UsersController extends AppController {
     public function admin_login() {
         $this->layout = 'login';
         if ($this->request->is('post')) {
-            $password = AuthComponent::password($this->request->data['users']['password']);
+            $password = AuthComponent::password($this->request->data['user']['password']);
             $data = $this->User->find('first', array(
                 'fields' => array(
                     'User.username',
@@ -133,10 +133,11 @@ class UsersController extends AppController {
                     'Role.Permission_id',
                 ),
                 'conditions' => array(
-                    'User.username' => $this->request->data['users']['username'],
+                    'User.username' => $this->request->data['user']['username'],
                     'User.password' => $password
                 )
             ));
+
             if (!empty($data)) {
                 $permiso = $this->Permission->find('first', array(
                     'fields' => array(
@@ -150,11 +151,11 @@ class UsersController extends AppController {
                 unset($permiso['Permission']['id']);
                 $user = array_merge($data['User'], $data['Role'], $permiso['Permission']);
                 if ($this->Auth->login($user)) {
-                    print $this->Crud->message('Acceso concedido');
+                    $this->Session->setFlash(__('Acceso concedido'), 'default', array('class' => "alert alert-success"));
                     return $this->redirect($this->Auth->redirectUrl());
                 }
             }
-            print $this->Crud->message('Usuario y/o Password invalido', FALSE);
+            $this->Session->setFlash(__('Usuario y/o Password invalido'), 'default', array('class' => "alert alert-danger"));
         }
     }
 
@@ -180,7 +181,7 @@ class UsersController extends AppController {
                 return true;
             } else {
                 if ($this->Auth->user('id')) {
-                    echo $this->Crud->message(__('Acceso denegado, no cuanta con los permisos necesarios'), false);
+                    $this->Session->setFlash(__('Acceso denegado, no cuanta con los permisos necesarios'), 'default', array('class' => "alert alert-danger"));
                 }
             }
         }

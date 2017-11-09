@@ -88,10 +88,10 @@ class OrdersController extends AppController {
                     $this->MetaOrder->create();
                     $this->MetaOrder->save($value);
                 }
-                $this->Crud->message('The pedido has been saved.');
+                $this->Session->setFlash(__('The pedido has been saved.'),'default', array('class' => "alert alert-success"));
                 return $this->redirect(array('action' => 'index'));
             } catch (Exception $ex) {
-                $this->Crud->message('The pedido could not be saved. Please, try again.');
+                $this->Session->setFlash(__('The pedido could not be saved. Please, try again.'),'default', array('class' => "alert alert-danger"));
             }
         }
         $users = $this->Order->User->find('list');
@@ -146,10 +146,10 @@ class OrdersController extends AppController {
                     $this->MetaOrder->create();
                     $this->MetaOrder->save($value);
                 }
-                $this->Crud->message('The pedido has been saved.');
+                $this->Session->setFlash(__('The pedido has been saved.'),'default', array('class' => "alert alert-success"));
                 return $this->redirect(array('action' => 'index'));
             } catch (Exception $ex) {
-                $this->Crud->message('The pedido could not be saved. Please, try again.');
+                $this->Session->setFlash(__('The pedido could not be saved. Please, try again.'),'default', array('class' => "alert alert-danger"));
             }
         } else {
             $options = array('conditions' => array('Order.' . $this->Order->primaryKey => $id));
@@ -192,9 +192,9 @@ class OrdersController extends AppController {
                 $this->MetaOrder->delete();
             }
             $this->Order->delete();
-            print $this->Crud->message('The order has been deleted.');
+            $this->Session->setFlash(__('The order has been deleted.'),'default', array('class' => "alert alert-success"));
         } catch (Exception $ex) {
-            print $this->Crud->message('The order could not be deleted. Please, try again.', false);
+            $this->Session->setFlash(__('The order could not be deleted. Please, try again.'), 'default', array('class' => "alert alert-danger"));
         }
         return $this->redirect(array('action' => 'index'));
     }

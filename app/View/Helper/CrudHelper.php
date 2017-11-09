@@ -1,14 +1,14 @@
 <?php
-
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
 
-class CrudHelper extends AppHelper{
+class CrudHelper extends AppHelper {
 
-    public $helpers = array('Html', 'Form','Paginator');
+    public $helpers = array('Html', 'Form', 'Paginator');
+
     /**
      * 
      * @param type $title
@@ -56,7 +56,13 @@ class CrudHelper extends AppHelper{
         return $this->Html->link("<span class=\"$class\"></span> " . $title, $A, $B);
     }
 
-    public function message($title, $event = true) {
+    /**
+     * 
+     * @param type $title
+     * @param type $event
+     */
+    public function showMessage($title, $event = true) {
+        
         $class = "danger";
         if ($event) {
             $class = "success";
@@ -65,7 +71,7 @@ class CrudHelper extends AppHelper{
                         __($title), 'default', array('class' => "alert alert-$class")
         );
     }
-    
+
     public function printPaginator() {
         ?>
         <p>

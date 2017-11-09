@@ -2,7 +2,7 @@
     <h1 class="text-center login-title">Sign in to continue to Bootsnipp</h1>
     <div class="account-wall">
         <?php echo $this->Html->image('../img/photo.jpg', array('class' => 'profile-img')); ?>
-        <?php echo $this->Form->create('users', array('class' => 'form-signin')); ?>
+        <?php echo $this->Form->create('user', array('class' => 'form-signin')); ?>
         <?php
         echo $this->Form->input('username', array(
             'label' => false,
